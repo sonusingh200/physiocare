@@ -20,8 +20,8 @@
 
     --small-text-size: 0.90rem;
     --medium-text-size: 1rem;
-    --mobile-heading-size: 1.20rem;
-    --website-heading-size: 2.20rem;
+    --mobile-section-heading-size: 1.40rem;
+    --dekstop-section-heading-size: 2.30rem;
     --hero-title-mobile: 2.20rem;
     --hero-title-dekstop: 4rem;
 
@@ -117,12 +117,14 @@ span {
 
 /*footrt c bar*/
 .footer-c-bar {
+
     width: 100%;
     background-color: #03045e;
     height: 40px;
 }
 
 .footer-c-bar :is(p) {
+
     font-size: 13px;
     font-family: var(--font-family-4-website-text);
     text-align: center;
@@ -133,6 +135,7 @@ span {
 }
 
 .footer-c-bar :is(a) {
+
     color: #f48c06;
 }
 
@@ -185,6 +188,7 @@ span {
 
 #open-menu,
 #close-menu {
+
     display: none;
     font-size: 25px;
     margin-right: 20px;
@@ -215,10 +219,12 @@ span {
 }
 
 .hero-text-heading {
+
     color: var(--website-hero-title-color);
     font-weight: 700;
     text-align: center;
     width: 100%;
+
 }
 
 .animated-text {
@@ -236,7 +242,6 @@ span {
 
 .info-cards-container {
     margin-top: 30px;
-    gap: 10px;
     flex-wrap: wrap;
     height: auto;
     justify-content: center;
@@ -334,7 +339,7 @@ span {
     background-color: rgba(0, 0, 0, 0.03);
     height: fit-content;
     padding-bottom: 30px;
-    background-color: #eaf4f4;
+    background-color: #f8f7ff;
     box-shadow: var(--website-box-shadow);
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
@@ -349,27 +354,44 @@ span {
 
 .customer-container {
     width: 100%;
-    background-color:#240046;
+    background-image: url(/assets/images/6070859.jpg);
     margin-top: 30px;
+    background-size: cover;
+    background-position: center;
 }
 
-.customer-info{
+.customer-info {
     justify-content: center;
-    column-gap: 30px;
 }
 
-.customers{
+.customers {
     border-radius: 8px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width:200px;
-    height:200px;
     border: 1px solid white;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 5px 7px 1px rgba(0, 0, 0, 0.286);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border: none;
+}
+
+.customers-icon {
+
+    width: 50px;
+    
+}
+  
+
+.customer-des {
+    padding-top: 10px;
+    font-family: var(--font-family-4-website-text);
+    text-align: center;
+    color:whitesmoke;
+
 }
 
 
-/*---responsive-screen-css*/
-
+/*mobile device responsive css starts from here*/
 @media screen and (min-width:240px) {
 
 
@@ -430,29 +452,30 @@ span {
     }
 
     .hero-text-heading {
-        font-size: 2.30rem;
+        font-size: var(--hero-title-mobile);
     }
 
     /*info-section------------------*/
 
     .info-card {
-        width: 160px;
+        width: 140px;
         height: 150px;
     }
 
     .info-description {
-        font-size: 13px;
-        width: 80%;
+        font-size: 12px;
+        width: 90%;
     }
 
     .info-cards-container {
         row-gap: 30px;
+        column-gap: 10px;
     }
 
     /*our-service-section--------------*/
 
     .service-card {
-        width: 160px;
+        width: 130px;
         height: 160px;
     }
 
@@ -462,7 +485,7 @@ span {
     }
 
     .title-heading {
-        font-size: var(-);
+        font-size: var(--mobile-section-heading-size);
     }
 
     .service-container {
@@ -470,6 +493,7 @@ span {
     }
 
     /*about-us-section----------------------*/
+
     .about-us-container {
         flex-direction: column;
         position: relative;
@@ -567,15 +591,41 @@ span {
 
     }
 
+    /*-customer-container----------------------------------*/
+
+    .customer-info {
+
+        padding-block: 20px;
+        column-gap: 10px;
+        row-gap: 10px;
+        flex-wrap: wrap;
+
+    }
+
+    .customers {
+
+        width: 140px;
+        height: 150px;
+    }
+
+    .customer-des {
+
+        font-weight: 400;
+        font-size: 13px;
+        width: 95%;
+
+    }
 
 
 }
+
+/*dekstop devices responsive css starts here*/
 
 @media screen and (min-width:1049px) {
 
 
     .title-heading {
-        font-size: var(--website-heading-size);
+        font-size: var(--dekstop-section-heading-size);
     }
 
     /*info-section------------*/
@@ -642,9 +692,6 @@ span {
     .main-header {
 
         height: 70px;
-        backdrop-filter: none;
-        background-color: transparent;
-        box-shadow: none;
     }
 
     .button-links {
@@ -667,8 +714,9 @@ span {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        animation: slides 15s infinite linear;
-        -webkit-animation: slides 18s infinite ease-in-out;
+        height: 600px;
+        animation: slides 28s infinite ease-in;
+        -webkit-animation: slides 28s infinite ease-in;
 
     }
 
@@ -708,8 +756,25 @@ span {
 
     }
 
+    /*consult now sticky section*/
+
     .consult-now {
         display: none;
+    }
+
+
+    /*achivment-section--------*/
+
+    .customer-info{
+        gap: 30px;
+    }
+
+    .customers {
+        width: 200px;
+    }
+
+    .customer-des {
+        width: 95%;
     }
 
 }
