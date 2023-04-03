@@ -194,6 +194,7 @@ span {
     margin-right: 20px;
     color: var(--website-shiny-wite-color);
     cursor: pointer;
+    background-color: none;
 }
 
 .button-links {
@@ -357,7 +358,7 @@ span {
     background-image: url(/assets/images/5386459.jpg);
     margin-top: 30px;
     background-size:cover;
-    background-position:center;
+    background-position:center center;
 }
 
 .customer-info {
@@ -431,6 +432,7 @@ span {
     #close-menu {
         padding-top: 30px;
         padding-left: 20px;
+        background-color: none;
     }
 
     /*--hero--section--*/
@@ -779,6 +781,10 @@ span {
 
     .customer-des {
         width: 95%;
+    }
+
+    .customer-container{
+        background-image:url(/assets/images/6070859.jpg);
     }
 
 }
