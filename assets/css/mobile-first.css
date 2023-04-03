@@ -416,6 +416,7 @@ span {
         backdrop-filter: blur(25px);
         -webkit-backdrop-filter: blur(25px);
         border-left: 1px solid rgba(225, 224, 224, 0.364);
+        z-index: 300;
 
     }
 
@@ -432,7 +433,6 @@ span {
     #close-menu {
         padding-top: 30px;
         padding-left: 20px;
-        background-color: none;
     }
 
     /*--hero--section--*/
@@ -684,6 +684,7 @@ span {
         right: 0;
         height: auto;
         width: auto;
+        z-index: 0;
     }
 
     .nav-menu {
