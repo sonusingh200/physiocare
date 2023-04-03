@@ -419,11 +419,9 @@ span {
         height: 100dvh;
         background-color: #031d4485;
         transition: right 0.3s;
-        backdrop-filter: blur(25px);
-        -webkit-backdrop-filter: blur(25px);
+        backdrop-filter: blur(32px);
+        -webkit-backdrop-filter: blur(32px);
         border-left: 1px solid rgba(225, 224, 224, 0.364);
-        z-index: 300;
-
     }
 
     .nav-menu {
