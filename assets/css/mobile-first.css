@@ -40,7 +40,7 @@
 }
 
 html {
-    scroll-padding-top: 150px;
+    scroll-padding-top: 160px;
     scroll-behavior: smooth;
 }
 
@@ -354,10 +354,10 @@ span {
 
 .customer-container {
     width: 100%;
-    background-image: url(/assets/images/6070859.jpg);
+    background-image: url(/assets/images/5386459.jpg);
     margin-top: 30px;
-    background-size: cover;
-    background-position: center;
+    background-size:cover;
+    background-position:center;
 }
 
 .customer-info {
@@ -633,6 +633,10 @@ span {
     .info-card {
         width: 200px;
         height: 150px;
+    }
+
+    .info-img{
+        width: 66px;
     }
 
     /*about-us-------------------*/
