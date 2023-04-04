@@ -173,14 +173,14 @@ span {
     right: 0;
     justify-content: space-between;
     z-index: 100;
-}
-
-.bg-header {
-    background-color: #1e27495d;
-    box-shadow: var(--box-shadow-header);
     backdrop-filter: blur(25px);
     -webkit-backdrop-filter: blur(25px);
+    box-shadow: var(--box-shadow-header);
+    background-color: #1e27495d;
+
 }
+
+
 
 .menu-links {
 
@@ -406,10 +406,10 @@ span {
 }
 
 .gallery {
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    border-radius:6px;
+    border-radius: 6px;
     border: 4px solid whitesmoke;
     box-shadow: var(--website-box-shadow);
 }
@@ -644,7 +644,7 @@ span {
 
     /*gallery-section*/
 
-    .our-gallery{
+    .our-gallery {
         margin-top: 30px;
     }
 
@@ -662,41 +662,48 @@ span {
 
     }
 
-    .image-1{
-       background-image: url(/businees-img/IMG_20230319_201231\(1\).jpg); 
-       background-position: top;
-       background-repeat: no-repeat;
-    }
-    .image-2{
-       background-image: url(/businees-img/IMG_20230319_200938\(1\).jpg); 
-       background-position: top;
-    }
-    .image-3{
-       background-image: url(/businees-img/IMG_20230319_200856\(1\).jpg); 
-       background-position: top;
-    }
-    .image-4{
-       background-image: url(/businees-img/FIF_1855.JPG); 
-       background-position: top;
-    }
-    .image-5{
-       background-image: url(/businees-img/FIF_1863.JPG); 
-       background-position: right;
-    }
-    .image-6{
-       background-image: url(/businees-img/FIF_1910.JPG); 
-       background-position: top;
-    }
-    .image-7{
-       background-image: url(/businees-img/FIF_1930.JPG); 
-       background-position: top;
-    }
-    .image-8{
-       background-image: url(/businees-img/FIF_1921.JPG); 
-       background-position: top;
+    .image-1 {
+        background-image: url(/businees-img/IMG_20230319_201231\(1\).jpg);
+        background-position: top;
+        background-repeat: no-repeat;
     }
 
-    
+    .image-2 {
+        background-image: url(/businees-img/IMG_20230319_200938\(1\).jpg);
+        background-position: top;
+    }
+
+    .image-3 {
+        background-image: url(/businees-img/IMG_20230319_200856\(1\).jpg);
+        background-position: top;
+    }
+
+    .image-4 {
+        background-image: url(/businees-img/FIF_1855.JPG);
+        background-position: top;
+    }
+
+    .image-5 {
+        background-image: url(/businees-img/FIF_1863.JPG);
+        background-position: right;
+    }
+
+    .image-6 {
+        background-image: url(/businees-img/FIF_1910.JPG);
+        background-position: top;
+    }
+
+    .image-7 {
+        background-image: url(/businees-img/FIF_1930.JPG);
+        background-position: top;
+    }
+
+    .image-8 {
+        background-image: url(/businees-img/FIF_1921.JPG);
+        background-position: top;
+    }
+
+
 
 }
 
@@ -857,15 +864,21 @@ span {
 
     .customers {
         width: 200px;
+        background-color: #231942;
     }
 
     .customer-des {
         width: 95%;
+        color: #fcfcff;
+        padding-inline: 5px;
+    }
+    .customer-container{
+        background-image: none;
+        background-color: #f3722c;
+        background-image: url(/assets/images/gradient.png);
+        background-size: 600px;
     }
 
-    .customer-container {
-        background-image: url(/assets/images/6070859.jpg);
-    }
 
     .gallery-container {
         flex-wrap: wrap;
@@ -874,7 +887,7 @@ span {
         margin-bottom: 50px;
     }
 
-    .gallery{
+    .gallery {
         width: 300px;
         height: 250px;
     }
