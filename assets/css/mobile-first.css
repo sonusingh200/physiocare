@@ -435,7 +435,7 @@ span {
         top: 0;
         right: -100%;
         width: 60%;
-        height: 100dvh;
+        height: 100%;
         background-color: hsla(216, 92%, 14%, 0.522);
         transition: right 0.3s;
         backdrop-filter: blur(32px);
