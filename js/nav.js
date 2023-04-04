@@ -19,11 +19,11 @@ navLinks.forEach(e => {
     })
 })
 
-let scrollh = () => {
-    let header = document.getElementById("header");
-    this.scrollY >= 50
-      ? header.classList.add("bg-header")
-      : header.classList.remove("bg-header");
-  };
+// let scrollh = () => {
+//     let header = document.getElementById("header");
+//     this.scrollY >= 50
+//       ? header.classList.add("bg-header")
+//       : header.classList.remove("bg-header");
+//   };
   
-  window.addEventListener("scroll", scrollh);
+//   window.addEventListener("scroll", scrollh);
