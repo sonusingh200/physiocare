@@ -2,7 +2,6 @@
 
     --website-button-color: #240046;
     --website-nav-menu-text-color: #f8f9fa;
-    --section-bgc-color: #b8b8ff, #35a7ff, #736ced, #a594f9;
     --website-hero-title-color: #b9bbb8;
     --website-title-higlighted-color: #f48c06;
     --website-shiny-wite-color: #f8f7ff;
@@ -30,6 +29,8 @@
     --font-family-3-helper: 'Kaushan Script', cursive;
     --font-family-4-website-text: 'Poppins', sans-serif;
 }
+
+/*===========================================================*/
 
 *,
 *::before,
@@ -116,11 +117,36 @@ span {
     }
 }
 
-/*footer-c-bar*/
+/*footerbar============================================*/
+
+.footer-container{
+    width: 100%;
+    background-color:var(--website-button-color);
+    justify-content: center;
+    height: auto;
+    justify-content: center;
+    gap: 20px;
+    padding-block: 20px;
+   
+}
+
+.sec{
+    width: 200px;
+    height: auto;
+}
+
+.service-links{
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: var(--font-family-4-website-text);
+    flex-direction: column;
+    row-gap: 20px;
+}
+
 .footer-c-bar {
 
     width: 100%;
-    background-color: #03045e;
+    background-color: #0F4D5C;
     height: 40px;
 }
 
@@ -149,7 +175,7 @@ span {
 }
 
 
-/*header---and---navbar*/
+/*header---and---navbar==================================*/
 
 .logo-text {
     width: 120px;
@@ -211,7 +237,7 @@ span {
 
 }
 
-/*hero-section------------------*/
+/*hero-section===========================================*/
 
 .hero-container::before {
     content: "";
@@ -235,7 +261,7 @@ span {
     text-align: center;
 }
 
-/*info-section-------------------*/
+/*info-section============================================*/
 
 .info-container {
     width: 100%;
@@ -279,14 +305,21 @@ span {
     top: -20px;
 }
 
-/*our-service-section*/
+/*our-service-section=====================================*/
 
 .service-section {
     margin-top: 50px;
     width: 100%;
     flex-direction: column;
-    background-color: #bfd7ff;
+    background-image:url(/assets/images/Lovepik_com-401735608-abstract-gradient-background.jpg);
+    background-color: #8963C6;
     padding-bottom: 20px;
+    background-position: top;
+    background-size:cover;
+}
+
+.title-heading span{
+    color: whitesmoke;
 }
 
 .service-section h1 {
@@ -322,7 +355,7 @@ span {
     margin-inline: auto;
 }
 
-/*About-us-section*/
+/*About-us-section========================================*/
 
 .about-us {
     width: 100%;
@@ -353,7 +386,7 @@ span {
     width: 95%;
 }
 
-/*customer-section*/
+/*customer-section=======================================*/
 
 .customer-container {
     width: 100%;
@@ -394,7 +427,7 @@ span {
 
 }
 
-/*gallery-section---------------------*/
+/*gallery-section=======================================*/
 .our-gallery {
     width: 100%;
     justify-content: center;
@@ -414,7 +447,7 @@ span {
     box-shadow: var(--website-box-shadow);
 }
 
-/*mobile device responsive css starts from here*/
+/*mobile device responsive css starts from here================================================*/
 @media screen and (min-width:240px) {
 
 
@@ -459,7 +492,7 @@ span {
         top: 20px;
     }
 
-    /*--hero--section--*/
+    /*--hero--section==================================*/
 
     .hero-container {
 
@@ -482,7 +515,7 @@ span {
         font-size: var(--hero-title-mobile);
     }
 
-    /*info-section------------------*/
+    /*info-section=====================================*/
 
     .info-card {
         width: 160px;
@@ -499,7 +532,7 @@ span {
         column-gap: 10px;
     }
 
-    /*our-service-section--------------*/
+    /*our-service-section===============================*/
 
     .service-card {
         width: 150px;
@@ -518,7 +551,7 @@ span {
         margin-top: 20px;
     }
 
-    /*about-us-section----------------------*/
+    /*about-us-section===================================*/
 
     .about-us-container {
         flex-direction: column;
@@ -549,7 +582,7 @@ span {
         padding-bottom: 20px;
     }
 
-    /*consult-now*/
+    /*consult-now=======================================*/
 
     .consult-now {
         width: 100%;
@@ -617,7 +650,7 @@ span {
 
     }
 
-    /*-customer-container----------------------------------*/
+    /*-customer-container=================================*/
 
     .customer-info {
 
@@ -642,7 +675,7 @@ span {
 
     }
 
-    /*gallery-section*/
+    /*gallery-section====================================*/
 
     .our-gallery {
         margin-top: 30px;
@@ -716,7 +749,7 @@ span {
         font-size: var(--dekstop-section-heading-size);
     }
 
-    /*info-section------------*/
+    /*info-section=================================*/
 
     .info-card {
         width: 200px;
@@ -727,7 +760,7 @@ span {
         width: 66px;
     }
 
-    /*about-us-------------------*/
+    /*about-us=====================================*/
 
     .about-us-container {
         flex-direction: row;
@@ -755,7 +788,7 @@ span {
         font-size: 35px;
     }
 
-    /*nav and header---------------*/
+    /*nav and header================================*/
 
     #open-menu,
     #close-menu {
@@ -792,7 +825,7 @@ span {
         line-height: 3rem;
     }
 
-    /*hero-section*/
+    /*hero-section================================*/
 
     .hero-text-heading {
         font-size: var(--hero-title-dekstop);
@@ -880,7 +913,8 @@ span {
         background-image: url(/assets/images/lkkk.png);
         background-size: contain;
     }
-
+   
+    /*Gallery==========================*/
 
     .gallery-container {
         flex-wrap: wrap;
