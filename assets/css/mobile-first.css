@@ -311,15 +311,11 @@ span {
     margin-top: 50px;
     width: 100%;
     flex-direction: column;
-    background-image:url(/assets/images/Lovepik_com-401735608-abstract-gradient-background.jpg);
+    background-image:url(/assets/images/1.jpg);
     background-color: #8963C6;
     padding-bottom: 20px;
     background-position: top;
-    background-size:cover;
-}
-
-.title-heading span{
-    color: whitesmoke;
+    background-size:contain;
 }
 
 .service-section h1 {
