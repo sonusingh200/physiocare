@@ -459,17 +459,16 @@ span {
     }
 
     .nav-bar-container {
-
         position: fixed;
-        top: 0;
-        right: -100%;
-        width: 70%;
-        height: 100%;
-        background-color: hsla(216, 92%, 14%, 0.522);
-        transition: right 0.3s;
+        background-color: hsla (180, 12%, 8%, 0.8);
         backdrop-filter: blur(32px);
         -webkit-backdrop-filter: blur(32px);
-        border-left: 3px solid rgba(225, 224, 224, 0.364);
+        right: -100%;
+        top: 0;
+        width: 60%;
+        height: 100%;
+        border-left: 2px solid var(--first-color-gray);
+        transition: right 0.3s;
     }
 
     .nav-menu {
