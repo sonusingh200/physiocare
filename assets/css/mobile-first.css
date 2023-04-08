@@ -470,6 +470,7 @@ span {
         backdrop-filter: blur(32px);
         -webkit-backdrop-filter: blur(32px);
         border-left: 3px solid rgba(225, 224, 224, 0.364);
+        z-index: 100;
     }
 
     .nav-menu {
