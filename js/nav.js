@@ -17,6 +17,7 @@ navLinks.forEach(e => {
         let navMenu = document.getElementById('nav-bar-container')
         navMenu.classList.remove('show')
     })
+    
 })
 
 // let scrollh = () => {
@@ -25,5 +26,6 @@ navLinks.forEach(e => {
 //       ? header.classList.add("bg-header")
 //       : header.classList.remove("bg-header");
 //   };
-  
+
 //   window.addEventListener("scroll", scrollh);
+

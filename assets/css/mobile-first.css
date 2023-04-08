@@ -311,8 +311,8 @@ span {
     margin-top: 50px;
     width: 100%;
     flex-direction: column;
-    background-image:url(/assets/images/1.jpg);
-    background-color: #8963C6;
+    /* background-image:url(/assets/images/1.jpg); */
+    background: linear-gradient(144deg, rgba(207,224,250,1) 33%, rgba(216,228,250,1) 57%, rgba(241,239,249,1) 74%, rgba(249,243,249,1) 99%); 
     padding-bottom: 20px;
     background-position: top;
     background-size:contain;
@@ -741,11 +741,19 @@ span {
 @media screen and (min-width:1049px) {
 
 
+    .service-container{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+
+
     .title-heading {
         font-size: var(--dekstop-section-heading-size);
     }
 
     /*info-section=================================*/
+
+
 
     .info-card {
         width: 200px;
@@ -753,7 +761,7 @@ span {
     }
 
     .info-img {
-        width: 66px;
+        width: 70px;
     }
 
     /*about-us=====================================*/
