@@ -565,6 +565,31 @@ span {
         box-shadow: var(--website-box-shadow);
         border-top: 4px solid red;
         border-bottom: 4px solid green;
+        position: relative;
+    }
+
+    .about-us-image::before,
+    .about-us-image::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #8a82fb;
+        border-radius: 50%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+    .about-us-image:before{
+        animation: pulse 2s ease-out infinite;
+    }
+    .about-us-image:after{
+        animation: pulse 2s 1s ease-out infinite;
+    }
+    @keyframes pulse{
+        100%{
+            transform: scale(1.5);
+            opacity: 0;
+        }
     }
 
     .about-us-description {
@@ -776,6 +801,10 @@ span {
         width: 600px;
         height: 400px;
         border: none;
+    }
+    .about-us-image::before,
+    .about-us-image::after {
+        display: none;
     }
 
     .about-us-text-box {
