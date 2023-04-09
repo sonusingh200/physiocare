@@ -119,23 +119,23 @@ span {
 
 /*footerbar============================================*/
 
-.footer-container{
+.footer-container {
     width: 100%;
-    background-color:var(--website-button-color);
+    background-color: var(--website-button-color);
     justify-content: center;
     height: auto;
     justify-content: center;
     gap: 20px;
     padding-block: 20px;
-   
+
 }
 
-.sec{
+.sec {
     width: 200px;
     height: auto;
 }
 
-.service-links{
+.service-links {
     color: whitesmoke;
     font-size: 12px;
     font-family: var(--font-family-4-website-text);
@@ -191,6 +191,12 @@ span {
     gap: 7px;
 }
 
+.bg-header {
+    background-color: #ECAA4D;
+    box-shadow: var(--box-shadow-header);
+
+}
+
 .main-header {
     position: fixed;
     width: 100%;
@@ -199,14 +205,8 @@ span {
     left: 0;
     justify-content: space-between;
     z-index: 100;
-    /* backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px); */
-    box-shadow: var(--box-shadow-header);
-    background-color: #1e27495d;
 
 }
-
-
 
 .menu-links {
 
@@ -312,10 +312,10 @@ span {
     width: 100%;
     flex-direction: column;
     /* background-image:url(/assets/images/1.jpg); */
-    background: linear-gradient(144deg, rgba(207,224,250,1) 33%, rgba(216,228,250,1) 57%, rgba(241,239,249,1) 74%, rgba(249,243,249,1) 99%); 
+    background: linear-gradient(144deg, rgba(207, 224, 250, 1) 33%, rgba(216, 228, 250, 1) 57%, rgba(241, 239, 249, 1) 74%, rgba(249, 243, 249, 1) 99%);
     padding-bottom: 20px;
     background-position: top;
-    background-size:contain;
+    background-size: contain;
 }
 
 .service-section h1 {
@@ -740,7 +740,7 @@ span {
 @media screen and (min-width:1049px) {
 
 
-    .service-container{
+    .service-container {
         width: 700px;
         flex-wrap: wrap;
     }
@@ -910,13 +910,14 @@ span {
         padding-inline: 5px;
         font-weight: 500;
     }
-    .customer-container{
+
+    .customer-container {
         background-image: none;
-        background-color:#240046;
+        background-color: #240046;
         background-image: url(/assets/images/lkkk.png);
         background-size: contain;
     }
-   
+
     /*Gallery==========================*/
 
     .gallery-container {
