@@ -468,7 +468,7 @@ span {
         top: 0;
         width: 60%;
         height: 100%;
-        border-left: 2px solid var(--first-color-gray);
+        border-left: 2px solid rgba(128, 128, 128, 0.627);
         transition: right 0.3s;
     }
 
@@ -617,7 +617,8 @@ span {
         height: 60px;
         position: fixed;
         bottom: 0;
-        background: linear-gradient(270deg, #ff9100, #f27059, #aacc00);
+        background: linear-gradient(185deg, #e31937, #ff5349);
+        background-size: 400% 400%;
         background-size: 600% 600%;
         -webkit-animation: AnimationName 30s ease infinite;
         -moz-animation: AnimationName 30s ease infinite;
