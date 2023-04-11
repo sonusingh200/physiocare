@@ -7,6 +7,9 @@
     --website-shiny-wite-color: #f8f7ff;
     --website-text-color: #1e2749;
     --website-section-title-color: #03045e;
+
+
+
     --website-border-radius: 6px;
     --website-box-shadow: 0px 5px 7px 1px rgba(0, 0, 0, 0.14);
     --box-shadow-header: 0px 2px 5px 1px rgba(0, 0, 0, 0.277);
@@ -146,7 +149,7 @@ span {
 .footer-c-bar {
 
     width: 100%;
-    background-color: #0F4D5C;
+    background-color: #330345;
     height: 40px;
 }
 
@@ -163,7 +166,7 @@ span {
 
 .footer-c-bar :is(a) {
 
-    color: #f48c06;
+    color: #de005e;
 }
 
 .signature {
@@ -192,9 +195,8 @@ span {
 }
 
 .bg-header {
-    background-color:#9CDA5F;
+    background-color:#F9F0E8;
     box-shadow: var(--box-shadow-header);
-
 }
 
 .main-header {
@@ -210,7 +212,6 @@ span {
 
 .menu-links {
 
-    color: var(--website-nav-menu-text-color);
     font-weight: 400;
     font-size: 14px;
 }
@@ -222,7 +223,6 @@ span {
     font-size: 25px;
     color: var(--website-shiny-wite-color);
     cursor: pointer;
-    background-color: hsla (180, 12%, 8%, 0.8);
 }
 
 .button-links {
@@ -233,7 +233,7 @@ span {
     text-align: center;
     border-radius: var(--website-border-radius);
     color: var(--website-shiny-wite-color);
-    background: linear-gradient(346deg, rgba(255,119,34,0.8279644621520483) 32%, rgba(227,25,55,0.7915498963257178) 84%);
+    background: linear-gradient(346deg, rgba(255, 119, 34, 0.8279644621520483) 32%, rgba(227, 25, 55, 0.7915498963257178) 84%);
 
 }
 
@@ -308,17 +308,21 @@ span {
 /*our-service-section=====================================*/
 
 .service-section {
-    margin-top: 50px;
+    margin-top: 40px;
     width: 100%;
     flex-direction: column;
-    background: linear-gradient(144deg, rgba(207, 224, 250, 1) 33%, rgba(216, 228, 250, 1) 57%, rgba(241, 239, 249, 1) 74%, rgba(249, 243, 249, 1) 99%);
+    background: linear-gradient(346deg, rgba(255,119,34,1) 30%, rgba(255,26,26,1) 61%); 
     padding-bottom: 20px;
+    background-attachment: fixed;
     background-position: top;
     background-size: contain;
 }
 
 .service-section h1 {
     padding-top: 30px;
+}
+.service-section h1 span{
+    color: #f8f9fa;
 }
 
 .service-container {
@@ -353,6 +357,7 @@ span {
 /*About-us-section========================================*/
 
 .about-us {
+    
     width: 100%;
     justify-content: center;
     margin-top: 40px;
@@ -361,6 +366,7 @@ span {
 }
 
 .about-us-container {
+
     background-image: url(/assets/images/lkkk.png);
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -377,6 +383,7 @@ span {
 }
 
 .about-us-text-box {
+
     margin-top: 20px;
     width: 95%;
 }
@@ -384,18 +391,27 @@ span {
 /*customer-section=======================================*/
 
 .customer-container {
+    padding-top: 20px;
     width: 100%;
     background-image: url(/assets/images/5386459.jpg);
     margin-top: 30px;
     background-size: cover;
     background-position: center center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.customer-container h1 span{
+    color: #f8f9fa;
 }
 
 .customer-info {
+
     justify-content: center;
 }
 
 .customers {
+
     border-radius: 8px;
     border: 1px solid white;
     justify-content: center;
@@ -419,563 +435,4 @@ span {
     font-family: var(--font-family-4-website-text);
     text-align: center;
     color: whitesmoke;
-
-}
-
-/*gallery-section=======================================*/
-
-.our-gallery {
-    width: 100%;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.gallery-container {
-    justify-content: center;
-}
-
-.gallery {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    border-radius: 6px;
-    border: 4px solid whitesmoke;
-    box-shadow: var(--website-box-shadow);
-}
-
-/*mobile device responsive css starts from here================================================*/
-
-@media screen and (min-width:240px) {
-
-
-    /* nav-bar-section */
-
-    #open-menu,
-    #close-menu {
-        display: block;
-    }
-
-    #open-menu {
-        margin-right: 20px;
-    }
-
-    .nav-bar-container {
-        position: fixed;
-        background-color: hsla (180, 12%, 8%, 0.8);
-        backdrop-filter: blur(32px);
-        -webkit-backdrop-filter: blur(32px);
-        right: -100%;
-        top: 0;
-        width: 60%;
-        height: 100%;
-        border-left: 2px solid rgba(128, 128, 128, 0.627);
-        transition: right 0.3s;
-    }
-
-    .nav-menu {
-        flex-direction: column;
-        gap: 30px;
-        margin-top: 80px;
-    }
-
-    .show {
-        right: 0;
-    }
-
-    #close-menu {
-        position: absolute;
-        left: 20px;
-        top: 20px;
-    }
-
-    .menu-links {
-        color: #03045e;
-    }
-
-    /*--hero--section==================================*/
-
-    .hero-container {
-
-        width: 100%;
-        height: 500px;
-        justify-content: center;
-        background-image: url(/assets/images/mobile-hero.jpg);
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
-    }
-
-    .hero-text {
-        width: 80%;
-        z-index: 5;
-    }
-
-    .hero-text-heading {
-        font-size: var(--hero-title-mobile);
-    }
-
-    /*info-section=====================================*/
-
-    .info-card {
-        width: 160px;
-        height: 130px;
-    }
-
-    .info-description {
-        font-size: 11px;
-        width: 90%;
-    }
-
-    .info-cards-container {
-        row-gap: 30px;
-        column-gap: 10px;
-    }
-
-    /*our-service-section===============================*/
-
-    .service-card {
-        width: 150px;
-        height: 130px;
-    }
-
-    .service-card p {
-        font-size: 13px;
-    }
-
-    .title-heading {
-        font-size: var(--mobile-section-heading-size);
-    }
-
-    .service-container {
-        margin-top: 20px;
-    }
-
-    /*about-us-section===================================*/
-
-    .about-us-container {
-        flex-direction: column;
-        position: relative;
-    }
-
-    .about-us-image {
-
-        background-image: url(/businees-img/FIF_2194.JPG);
-        background-position: center;
-        background-size: cover;
-        height: 150px;
-        width: 150px;
-        margin-top: 20px;
-        border: 3px solid white;
-        border-radius: 50%;
-        box-shadow: var(--website-box-shadow);
-        border-top: 4px solid red;
-        border-bottom: 4px solid green;
-        position: relative;
-
-    }
-
-    .about-us-image::before,
-    .about-us-image::after {
-        content: "";
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-color: #8a82fb;
-        border-radius: 50%;
-        z-index: -1;
-        opacity: 0.7;
-    }
-
-    .about-us-image:before {
-        animation: pulse 2s ease-out infinite;
-    }
-
-    .about-us-image:after {
-        animation: pulse 2s 1s ease-out infinite;
-    }
-
-    @keyframes pulse {
-        100% {
-            transform: scale(1.5);
-            opacity: 0;
-        }
-    }
-
-    .about-us-description {
-        font-family: var(--font-family-4-website-text);
-        width: 100%;
-        text-align: center;
-        font-size: 14px;
-        padding-inline: 10px;
-        font-weight: 500;
-        padding-bottom: 20px;
-    }
-
-    /*consult-now=======================================*/
-
-    .consult-now {
-        width: 100%;
-        height: 60px;
-        position: fixed;
-        bottom: 0;
-        background: linear-gradient(185deg, #e31937, #ff5349);
-        background-size: 400% 400%;
-        background-size: 600% 600%;
-        -webkit-animation: AnimationName 30s ease infinite;
-        -moz-animation: AnimationName 30s ease infinite;
-        animation: AnimationName 30s ease infinite;
-    }
-
-    @-webkit-keyframes AnimationName {
-
-        0% {
-            background-position: 0% 50%
-        }
-
-        50% {
-            background-position: 100% 50%
-        }
-
-        100% {
-            background-position: 0% 50%
-        }
-    }
-
-    @-moz-keyframes AnimationName {
-        0% {
-            background-position: 0% 50%
-        }
-
-        50% {
-            background-position: 100% 50%
-        }
-
-        100% {
-            background-position: 0% 50%
-        }
-    }
-
-    @keyframes AnimationName {
-        0% {
-            background-position: 0% 50%
-        }
-
-        50% {
-            background-position: 100% 50%
-        }
-
-        100% {
-            background-position: 0% 50%
-        }
-    }
-
-    .consult-now-button {
-
-        color: whitesmoke;
-        width: 100%;
-        height: 100%;
-        line-height: 60px;
-        font-size: 13px;
-        text-align: center;
-        font-family: var(--font-family-4-website-text);
-
-    }
-
-    /*-customer-container=================================*/
-
-    .customer-info {
-
-        padding-block: 20px;
-        column-gap: 10px;
-        row-gap: 10px;
-        flex-wrap: wrap;
-
-    }
-
-    .customers {
-
-        width: 160px;
-        height: 150px;
-    }
-
-    .customer-des {
-
-        font-weight: 400;
-        font-size: 12px;
-        width: 95%;
-
-    }
-
-    /*gallery-section====================================*/
-
-    .our-gallery {
-        margin-top: 30px;
-    }
-
-    .gallery-container {
-        margin-top: 20px;
-        flex-wrap: wrap;
-        gap: 20px;
-        padding-inline: 5px;
-        margin-bottom: 50px;
-    }
-
-    .gallery {
-        width: 160px;
-        height: 150px;
-
-    }
-
-    .image-1 {
-        background-image: url(/businees-img/IMG_20230319_201231\(1\).jpg);
-        background-position: top;
-        background-repeat: no-repeat;
-    }
-
-    .image-2 {
-        background-image: url(/businees-img/IMG_20230319_200938\(1\).jpg);
-        background-position: top;
-    }
-
-    .image-3 {
-        background-image: url(/businees-img/IMG_20230319_200856\(1\).jpg);
-        background-position: top;
-    }
-
-    .image-4 {
-        background-image: url(/businees-img/FIF_1855.JPG);
-        background-position: top;
-    }
-
-    .image-5 {
-        background-image: url(/businees-img/FIF_1863.JPG);
-        background-position: right;
-    }
-
-    .image-6 {
-        background-image: url(/businees-img/FIF_1910.JPG);
-        background-position: top;
-    }
-
-    .image-7 {
-        background-image: url(/businees-img/FIF_1930.JPG);
-        background-position: top;
-    }
-
-    .image-8 {
-        background-image: url(/businees-img/FIF_1921.JPG);
-        background-position: top;
-    }
-
-
-
-}
-
-/*dekstop devices responsive css starts here*/
-
-@media screen and (min-width:1049px) {
-
-
-    .service-container {
-        width: 700px;
-        flex-wrap: wrap;
-    }
-
-
-    .title-heading {
-        font-size: var(--dekstop-section-heading-size);
-    }
-
-    /*info-section=================================*/
-
-
-
-    .info-card {
-        width: 200px;
-        height: 150px;
-    }
-
-    .info-img {
-        width: 70px;
-    }
-
-    /*about-us=====================================*/
-
-    .about-us-container {
-        flex-direction: row;
-        justify-content: space-evenly;
-        position: relative;
-    }
-
-    .about-us-image {
-        border-radius: 8px;
-        width: 600px;
-        height: 400px;
-        border: none;
-    }
-
-    .about-us-image::before,
-    .about-us-image::after {
-        display: none;
-    }
-
-    .about-us-text-box {
-        width: 50%;
-    }
-
-    .about-us-description {
-        font-size: 17px;
-        margin-top: 40px;
-    }
-
-    .about-us-text-box :is(h1) {
-        font-size: 35px;
-    }
-
-    /*nav and header================================*/
-
-    #open-menu,
-    #close-menu {
-        display: none;
-    }
-
-    .nav-bar-container {
-        position: relative;
-        background-color: transparent;
-        border: none;
-        backdrop-filter: none;
-        right: 0;
-        height: auto;
-        width: auto;
-        z-index: 0;
-    }
-
-    .nav-menu {
-
-        flex-direction: row;
-        gap: 30px;
-        margin-top: 0;
-        margin-right: 20px;
-
-    }
-
-    .main-header {
-
-        height: 70px;
-    }
-
-    .button-links {
-        height: 3rem;
-        line-height: 3rem;
-    }
-
-    .menu-links {
-        color: whitesmoke;
-    }
-
-    /*hero-section================================*/
-
-    .hero-text-heading {
-        font-size: var(--hero-title-dekstop);
-    }
-
-    .animated-text {
-        font-size: var(--hero-title-dekstop);
-    }
-
-    .hero-container {
-        background-image: url(/assets/images/dekstop-hero-1.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 600px;
-        animation: slides 28s infinite ease-in;
-        -webkit-animation: slides 28s infinite ease-in;
-
-    }
-
-    @keyframes slides {
-
-        10% {
-
-            background-image: url(/assets/images/dekstop-hero-2.jpg);
-
-        }
-
-        30% {
-            background-image: url(/assets/images/dekstop-hero-3.jpg);
-
-        }
-
-        50% {
-            background-image: url(/assets/images/dekstop-hero-4.jpg);
-
-        }
-
-        70% {
-            background-image: url(/assets/images/dekstop-hero-5.jpg);
-
-        }
-
-        90% {
-            background-image: url(/assets/images/dekstop-hero-6.jpg);
-
-        }
-
-        100% {
-            background-image: url(/assets/images/dekstop-hero-1.jpg);
-        }
-
-
-
-    }
-
-    /*--consult-now-sticky-section-----------------*/
-
-    .consult-now {
-        display: none;
-    }
-
-
-    /*achivment-section--------*/
-
-    .customer-info {
-        gap: 30px;
-    }
-
-    .customers {
-        width: 200px;
-        backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(15px);
-    }
-
-    .customer-des {
-        width: 95%;
-        color: whitesmoke;
-        padding-inline: 5px;
-        font-weight: 500;
-    }
-
-    .customer-container {
-        background-image: none;
-        background-color: #240046;
-        background-image: url(/assets/images/lkkk.png);
-        background-size: contain;
-    }
-
-    /*Gallery==========================*/
-
-    .gallery-container {
-        flex-wrap: wrap;
-        gap: 20px;
-        padding-inline: 5px;
-        margin-bottom: 50px;
-    }
-
-    .gallery {
-        width: 300px;
-        height: 250px;
-    }
-
 }

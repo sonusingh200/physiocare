@@ -262,68 +262,6 @@
 
     }
 
-    /*gallery-section====================================*/
-
-    .our-gallery {
-        margin-top: 30px;
-    }
-
-    .gallery-container {
-        margin-top: 20px;
-        flex-wrap: wrap;
-        gap: 20px;
-        padding-inline: 5px;
-        margin-bottom: 50px;
-    }
-
-    .gallery {
-        width: 160px;
-        height: 150px;
-
-    }
-
-    .image-1 {
-        background-image: url(/businees-img/IMG_20230319_201231\(1\).jpg);
-        background-position: top;
-        background-repeat: no-repeat;
-    }
-
-    .image-2 {
-        background-image: url(/businees-img/IMG_20230319_200938\(1\).jpg);
-        background-position: top;
-    }
-
-    .image-3 {
-        background-image: url(/businees-img/IMG_20230319_200856\(1\).jpg);
-        background-position: top;
-    }
-
-    .image-4 {
-        background-image: url(/businees-img/FIF_1855.JPG);
-        background-position: top;
-    }
-
-    .image-5 {
-        background-image: url(/businees-img/FIF_1863.JPG);
-        background-position: right;
-    }
-
-    .image-6 {
-        background-image: url(/businees-img/FIF_1910.JPG);
-        background-position: top;
-    }
-
-    .image-7 {
-        background-image: url(/businees-img/FIF_1930.JPG);
-        background-position: top;
-    }
-
-    .image-8 {
-        background-image: url(/businees-img/FIF_1921.JPG);
-        background-position: top;
-    }
-
-
 
 }
 
@@ -426,7 +364,7 @@
     }
 
     .menu-links {
-        color: whitesmoke;
+        color:#240046;
     }
 
     /*hero-section================================*/
@@ -514,23 +452,11 @@
 
     .customer-container {
         background-image: none;
-        background-color: #240046;
-        background-image: url(/assets/images/lkkk.png);
+        background: linear-gradient(346deg, rgba(255,119,34,1) 30%, rgba(255,26,26,1) 61%);
         background-size: contain;
+        background-attachment: fixed;
+
     }
 
-    /*Gallery==========================*/
-
-    .gallery-container {
-        flex-wrap: wrap;
-        gap: 20px;
-        padding-inline: 5px;
-        margin-bottom: 50px;
-    }
-
-    .gallery {
-        width: 300px;
-        height: 250px;
-    }
 
 }
