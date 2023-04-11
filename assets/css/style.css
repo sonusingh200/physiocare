@@ -99,10 +99,6 @@
         font-size: 13px;
     }
 
-    .service-section h1{
-        color: #ff5349;
-    }
-
     .title-heading {
         font-size: var(--mobile-section-heading-size);
     }
@@ -251,6 +247,10 @@
         row-gap: 10px;
         flex-wrap: wrap;
 
+    }
+
+    .customer-container h1{
+        color: #ff5349;
     }
 
     .customers {
