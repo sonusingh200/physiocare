@@ -192,7 +192,7 @@ span {
 }
 
 .bg-header {
-    background-color: #ECAA4D;
+    background-color: #ffc9b9;
     box-shadow: var(--box-shadow-header);
 
 }
@@ -331,7 +331,7 @@ span {
 .service-card {
     border-radius: var(--website-border-radius);
     padding-top: 20px;
-    background-color: #ffc9b9;
+    background-color: rgb(245, 241, 234);
     box-shadow: var(--website-box-shadow);
 }
 
@@ -865,6 +865,10 @@ span {
     .button-links {
         height: 3rem;
         line-height: 3rem;
+    }
+
+    .menu-links{
+        color: whitesmoke;
     }
 
     /*hero-section================================*/
