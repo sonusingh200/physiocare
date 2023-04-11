@@ -249,9 +249,6 @@
 
     }
 
-    .customer-container h1{
-        color: #ff5349;
-    }
 
     .customers {
 
@@ -265,6 +262,10 @@
         font-size: 12px;
         width: 95%;
 
+    }
+
+    .customer-container h1{
+        color: #ff5349;
     }
 
 
@@ -461,6 +462,9 @@
         background-size: contain;
         background-attachment: fixed;
 
+    }
+    .customer-container h1{
+        color:#240046;
     }
 
 
