@@ -413,7 +413,6 @@ span {
 .customers {
 
     border-radius: 8px;
-    border: 1px solid white;
     justify-content: center;
     flex-direction: column;
     background: transparent;

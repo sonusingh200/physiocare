@@ -8,11 +8,11 @@
     #open-menu,
     #close-menu {
         display: block;
+        color: #240046;
     }
 
     #open-menu {
         margin-right: 20px;
-        color: #240046;
     }
 
     .nav-bar-container {
@@ -72,6 +72,10 @@
     }
 
     /*info-section=====================================*/
+
+    .info-heading{
+        width: 80%;
+    }
 
     .info-card {
         width: 160px;
@@ -445,6 +449,7 @@
 
     .customers {
         width: 200px;
+        border: 2px solid whitesmoke;
         backdrop-filter: blur(15px);
         -webkit-backdrop-filter: blur(15px);
     }
