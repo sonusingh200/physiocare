@@ -75,6 +75,7 @@
 
     .info-heading{
         width: 80%;
+        margin-inline: auto;
     }
 
     .info-card {
