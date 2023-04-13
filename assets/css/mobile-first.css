@@ -195,7 +195,7 @@ span {
 }
 
 .bg-header {
-    background-color:#F9F0E8;
+    background-color: #F9F0E8;
     box-shadow: var(--box-shadow-header);
 }
 
@@ -311,17 +311,19 @@ span {
     margin-top: 40px;
     width: 100%;
     flex-direction: column;
-    background: linear-gradient(346deg, rgba(255,119,34,1) 30%, rgba(255,26,26,1) 61%); 
+    background-image: url(/assets/images/cover2.png);
+    background: linear-gradient(346deg, rgba(255, 119, 34, 1) 30%, rgba(255, 26, 26, 1) 61%);
     padding-bottom: 20px;
     background-attachment: fixed;
-    background-position: top;
+    background-position: center;
     background-size: contain;
 }
 
 .service-section h1 {
     padding-top: 30px;
 }
-.service-section h1 span{
+
+.service-section h1 span {
     color: #f8f9fa;
 }
 
@@ -357,7 +359,7 @@ span {
 /*About-us-section========================================*/
 
 .about-us {
-    
+
     width: 100%;
     justify-content: center;
     margin-top: 40px;
@@ -401,9 +403,6 @@ span {
     justify-content: center;
 }
 
-.customer-container h1 span{
-    color: #f8f9fa;
-}
 
 .customer-info {
 

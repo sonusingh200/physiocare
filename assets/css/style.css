@@ -73,11 +73,6 @@
 
     /*info-section=====================================*/
 
-    .info-heading{
-        width: 80%;
-        margin-inline: auto;
-    }
-
     .info-card {
         width: 160px;
         height: 130px;
@@ -168,9 +163,10 @@
         width: 100%;
         text-align: center;
         font-size: 14px;
-        padding-inline: 10px;
+        padding-inline: 9px;
         font-weight: 500;
         padding-bottom: 20px;
+        margin-top: 20px;
     }
 
     /*consult-now=======================================*/
@@ -269,7 +265,7 @@
 
     }
 
-    .customer-container h1{
+    .customer-container h1 {
         color: #ff5349;
     }
 
@@ -375,7 +371,7 @@
     }
 
     .menu-links {
-        color:#240046;
+        color: #240046;
     }
 
     /*hero-section================================*/
@@ -438,11 +434,12 @@
     /*--consult-now-sticky-section-----------------*/
 
     .consult-now {
+
         display: none;
     }
 
 
-    /*achivment-section--------*/
+    /*achivment-section-------*/
 
     .customer-info {
         gap: 30px;
@@ -450,9 +447,8 @@
 
     .customers {
         width: 200px;
-        border: 2px solid whitesmoke;
-        backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(15px);
+        border-radius: 15px;
+        border: 3px solid whitesmoke;
     }
 
     .customer-des {
@@ -463,14 +459,13 @@
     }
 
     .customer-container {
-        background-image: none;
-        background: linear-gradient(346deg, rgba(255,119,34,1) 30%, rgba(255,26,26,1) 61%);
+        background-image: url(/assets/images/cover2.png);
         background-size: contain;
-        background-attachment: fixed;
-
+        background-color: #330345;
     }
-    .customer-container h1{
-        color:#240046;
+
+    .customer-container h1 {
+        color: #240046;
     }
 
 

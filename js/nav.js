@@ -17,15 +17,21 @@ navLinks.forEach(e => {
         let navMenu = document.getElementById('nav-bar-container')
         navMenu.classList.remove('show')
     })
-    
+
 })
 
 let scrollh = () => {
     let header = document.getElementById("header");
-    this.scrollY >= 50
-      ? header.classList.add("bg-header")
-      : header.classList.remove("bg-header");
-  };
-  
-  window.addEventListener("scroll", scrollh);
+
+    if (this.scrollY >= 50) {
+        header.classList.add("bg-header")
+    }
+    else {
+        header.classList.remove("bg-header")
+    }
+
+
+};
+
+window.addEventListener("scroll", scrollh);
 
