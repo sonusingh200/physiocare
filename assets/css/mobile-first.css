@@ -15,14 +15,9 @@
     --box-shadow-header: 0px 2px 5px 1px rgba(0, 0, 0, 0.277);
 
 
-    --font-size-h1: 2.90rem;
-    --font-size-h2: 1.10rem;
-    --font-size-a: 1rem;
-    --font-size-p: 1rem;
-
     --small-text-size: 0.90rem;
     --medium-text-size: 1rem;
-    --mobile-section-heading-size: 1.40rem;
+    --mobile-section-heading-size: 1rem;
     --dekstop-section-heading-size: 2.30rem;
     --hero-title-mobile: 2.20rem;
     --hero-title-dekstop: 4rem;
@@ -70,9 +65,6 @@ span {
     display: inline-block;
 }
 
-.over-flow {
-    overflow: hidden;
-}
 
 .flex {
     display: flex;
@@ -170,6 +162,7 @@ span {
 }
 
 .signature {
+
     font-family: var(--font-family-1-rare-used);
     font-size: 30px;
     font-weight: 500;
@@ -178,7 +171,7 @@ span {
 }
 
 
-/*header---and---navbar==================================*/
+/*header-and-navbar==================================*/
 
 .logo-text {
     width: 120px;
@@ -305,7 +298,7 @@ span {
     top: -20px;
 }
 
-/*our-service-section=====================================*/
+/*our-service-section================*/
 
 .service-section {
     margin-top: 40px;
@@ -317,14 +310,6 @@ span {
     background-attachment: fixed;
     background-position: center;
     background-size: contain;
-}
-
-.service-section h1 {
-    padding-top: 30px;
-}
-
-.service-section h1 span {
-    color: #f8f9fa;
 }
 
 .service-container {

@@ -1,7 +1,38 @@
+:root {
+
+    --website-button-color: #240046;
+    --website-nav-menu-text-color: #f8f9fa;
+    --website-hero-title-color: #b9bbb8;
+    --website-title-higlighted-color: #f48c06;
+    --website-shiny-wite-color: #f8f7ff;
+    --website-text-color: #1e2749;
+    --website-section-title-color: #03045e;
+
+
+
+    --website-border-radius: 6px;
+    --website-box-shadow: 0px 5px 7px 1px rgba(0, 0, 0, 0.14);
+    --box-shadow-header: 0px 2px 5px 1px rgba(0, 0, 0, 0.277);
+
+
+
+    --small-text-size: 0.90rem;
+    --medium-text-size: 1rem;
+    --mobile-section-heading-size: 2.40rem;
+    --dekstop-section-heading-size: 2.60rem;
+    --hero-title-mobile: 2.20rem;
+    --hero-title-dekstop: 4rem;
+
+    --font-family-1-rare-used: 'Alex Brush', cursive;
+    --font-family-2-main-title-font: 'DM Serif Display', serif;
+    --font-family-3-helper: 'Kaushan Script', cursive;
+    --font-family-4-website-text: 'Poppins', sans-serif;
+}
+
+
 /*mobile device responsive css starts from here================================================*/
 
 @media screen and (min-width:240px) {
-
 
     /* nav-bar-section */
 
@@ -88,6 +119,10 @@
         column-gap: 10px;
     }
 
+    .info-heading {
+        font-size:1.50rem;
+    }
+
     /*our-service-section===============================*/
 
     .service-card {
@@ -99,13 +134,17 @@
         font-size: 13px;
     }
 
-    .title-heading {
-        font-size: var(--mobile-section-heading-size);
-    }
-
     .service-container {
         margin-top: 20px;
     }
+    .service-heading{
+        padding-top: 10px;
+        font-size: 1.50rem;
+    }
+    .service-handler{
+        color: #f8f9fa;
+    }
+
 
     /*about-us-section===================================*/
 
@@ -282,14 +321,7 @@
         flex-wrap: wrap;
     }
 
-
-    .title-heading {
-        font-size: var(--dekstop-section-heading-size);
-    }
-
     /*info-section=================================*/
-
-
 
     .info-card {
         width: 200px;
