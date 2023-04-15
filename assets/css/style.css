@@ -105,7 +105,7 @@
     /*info-section=====================================*/
 
     .info-card {
-        width: 160px;
+        width: 180px;
         height: 130px;
     }
 
@@ -324,12 +324,15 @@
     /*info-section=================================*/
 
     .info-card {
-        width: 250px;
+        width: 200px;
         height: 150px;
     }
 
     .info-img {
         width: 70px;
+    }
+    .info-heading{
+        font-size: 2rem;
     }
 
     /*about-us=====================================*/
