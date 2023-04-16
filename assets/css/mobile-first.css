@@ -305,9 +305,9 @@ span {
     width: 100%;
     flex-direction: column;
     background-image: url(/assets/images/cover2.png);
-    background: linear-gradient(346deg, rgba(255, 119, 34, 1) 30%, rgba(255, 26, 26, 1) 61%);
+    /* background: linear-gradient(346deg, rgba(255, 119, 34, 1) 30%, rgba(255, 26, 26, 1) 61%); */
+    background-color:rgb(98, 130, 231);
     padding-bottom: 20px;
-    background-attachment: fixed;
     background-position: center;
     background-size: contain;
 }
