@@ -432,4 +432,9 @@ span {
     margin-top: 40px;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
+}
+
+.img-one , .img-two , .img-three , .img-foure , .img-five , .img-six , .img-seven , .img-eight {
+    background-image: url(/awards/IMG-0822-removebg-preview.png);
 }
