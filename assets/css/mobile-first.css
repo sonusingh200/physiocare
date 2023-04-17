@@ -305,8 +305,7 @@ span {
     width: 100%;
     flex-direction: column;
     background-image: url(/assets/images/cover2.png);
-    /* background: linear-gradient(346deg, rgba(255, 119, 34, 1) 30%, rgba(255, 26, 26, 1) 61%); */
-    background-color:rgb(98, 130, 231);
+    background: linear-gradient(346deg, rgba(255, 119, 34, 1) 30%, rgba(255, 26, 26, 1) 61%);
     padding-bottom: 20px;
     background-position: center;
     background-size: contain;
@@ -317,6 +316,9 @@ span {
     padding-bottom: 10px;
     justify-content: center;
     gap: 10px;
+}
+.smoke-white{
+    color: whitesmoke;
 }
 
 .service-card {
@@ -420,6 +422,14 @@ span {
 }
 
 /*award-section========================================*/
-.award-section{
+.award-secttion{
+    margin-top: 40px;
     width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.award-container{
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }

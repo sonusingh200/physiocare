@@ -302,6 +302,7 @@
         font-weight: 400;
         font-size: 12px;
         width: 95%;
+        color: #f8f7ff;
 
     }
 
@@ -317,7 +318,7 @@
 @media screen and (min-width:1049px) {
 
 
-    .service-heading{
+    .service-heading {
         font-size: 2rem;
     }
 
@@ -490,6 +491,7 @@
     .customers {
         width: 200px;
         border-radius: 15px;
+        border: 3px solid whitesmoke;
 
     }
 
@@ -502,9 +504,8 @@
     }
 
     .customer-container {
-        background-image: url(/assets/images/cover2.png);
         background-size: contain;
-        background-color: rgb(98, 130, 231);
+        background: linear-gradient(346deg, rgba(255, 119, 34, 1) 30%, rgba(255, 26, 26, 1) 61%);
 
     }
 
