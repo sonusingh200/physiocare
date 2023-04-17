@@ -371,7 +371,7 @@ span {
 
 .about-us-text-box {
 
-    margin-top: 20px;
+    margin-top: 10px;
     width: 95%;
 }
 
@@ -417,5 +417,9 @@ span {
     padding-top: 10px;
     font-family: var(--font-family-4-website-text);
     text-align: center;
-    color: whitesmoke;
+}
+
+/*award-section========================================*/
+.award-section{
+    width: 100%;
 }
