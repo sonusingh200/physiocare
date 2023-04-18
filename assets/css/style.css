@@ -20,7 +20,7 @@
     --medium-text-size: 1rem;
     --mobile-section-heading-size: 2.40rem;
     --dekstop-section-heading-size: 2.60rem;
-    --hero-title-mobile: 2.20rem;
+    --hero-title-mobile: 2.30rem;
     --hero-title-dekstop: 4rem;
 
     --font-family-1-rare-used: 'Alex Brush', cursive;
@@ -96,6 +96,18 @@
     .hero-text {
         width: 80%;
         z-index: 5;
+    }
+
+    .hero-text-heading {
+        font-size: var(--hero-title-mobile);
+    }
+
+    .swiper {
+        display: none;
+    }
+
+    .hero-mobile-heading {
+        width: 90%;
     }
 
     .hero-text-heading {
@@ -311,14 +323,7 @@
     }
 
     /*award section*/
-    
-    .award-card {
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 130px;
-        height: 130px;
-    }
+
 
 
 }
@@ -332,7 +337,7 @@
         font-size: 2rem;
     }
 
-    .service-card{
+    .service-card {
         height: 180px;
         width: 150px;
     }
@@ -434,6 +439,10 @@
 
     /*hero-section================================*/
 
+    .swiper{
+        display: block;
+    }
+
     .hero-text-heading {
         font-size: var(--hero-title-dekstop);
     }
@@ -443,50 +452,33 @@
     }
 
     .hero-container {
-        background-image: url(/assets/images/dekstop-hero-1.jpg);
+        background-image: none;
+    }
+
+    .swiper {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .swiper-slide {
+        background-image: url(/assets/images/dekstop-hero-4.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         height: 600px;
-        animation: slides 28s infinite ease-in;
-        -webkit-animation: slides 28s infinite ease-in;
-
+        position: relative;
     }
 
-    @keyframes slides {
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-        10% {
-
-            background-image: url(/assets/images/dekstop-hero-2.jpg);
-
-        }
-
-        30% {
-            background-image: url(/assets/images/dekstop-hero-3.jpg);
-
-        }
-
-        50% {
-            background-image: url(/assets/images/dekstop-hero-4.jpg);
-
-        }
-
-        70% {
-            background-image: url(/assets/images/dekstop-hero-5.jpg);
-
-        }
-
-        90% {
-            background-image: url(/assets/images/dekstop-hero-6.jpg);
-
-        }
-
-        100% {
-            background-image: url(/assets/images/dekstop-hero-1.jpg);
-        }
-
-
-
+    .hero-mobile-heading {
+        display: none;
     }
 
     /*--consult-now-sticky-section-----------------*/
@@ -533,16 +525,6 @@
     .achivement-heading {
         font-size: 2rem;
     }
-
-
-    .award-card {
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 180px;
-        height: 250px;
-    }
-
 
 
 
