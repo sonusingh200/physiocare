@@ -4,15 +4,17 @@ let navMenu = document.getElementById('nav-bar-container')
 
 openBtn.addEventListener('click', () => {
     navMenu.classList.add('show')
+    event.stopPropagation()
 })
 closeBtn.addEventListener('click', () => {
     navMenu.classList.remove('show')
+    event.stopPropagation()
 })
 
 
 
 let navLinks = document.querySelectorAll('.menu-links')
-navLinks.forEach(e => {
+navLinks.forEach((e) => {
     e.addEventListener('click', () => {
         let navMenu = document.getElementById('nav-bar-container')
         navMenu.classList.remove('show')
@@ -39,16 +41,16 @@ const swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
-      delay: 4500,
-      disableOnInteraction: false,
+        delay: 4500,
+        disableOnInteraction: false,
     },
     pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
+        el: ".swiper-pagination",
+        clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
-  });
+});
 

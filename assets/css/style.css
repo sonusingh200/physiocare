@@ -19,7 +19,7 @@
     --small-text-size: 0.90rem;
     --medium-text-size: 1rem;
     --mobile-section-heading-size: 2.40rem;
-    --dekstop-section-heading-size: 2.60rem;
+    --dekstop-section-heading-size: 2rem;
     --hero-title-mobile: 2.30rem;
     --hero-title-dekstop: 4rem;
 
@@ -322,8 +322,40 @@
         color: #ff5349;
     }
 
-    /*award section*/
+    /***************************/
+    .achivement-heading {
+        font-size: var(--mobile-section-heading-size);
+    }
 
+    /*review-section*/
+    .review-section {
+        margin-top: 30px;
+    }
+    .review-heading {
+        width: 85%;
+        font-size: var(--mobile-section-heading-size);
+        line-height: 1.90rem;
+
+    }
+
+    .review-container {
+        margin-top: 20px;
+        width: 100%;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .review-card {
+        width: 170px;
+        height: 220px;
+    }
+    .review-descrip{
+        font-size: 9px;
+    }
+
+    .review-heading {
+        font-size:1.70rem;
+    }
 
 
 }
@@ -439,7 +471,7 @@
 
     /*hero-section================================*/
 
-    .swiper{
+    .swiper {
         display: block;
     }
 
@@ -524,6 +556,22 @@
 
     .achivement-heading {
         font-size: 2rem;
+    }
+
+    /*review-section*/
+    .review-container {
+        max-width: 1100px;
+
+    }
+
+    .review-card {
+        width: 250px;
+        height: 200px;
+
+    }
+
+    .review-descrip {
+        font-size: 10px;
     }
 
 
