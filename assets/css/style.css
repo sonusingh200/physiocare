@@ -1,579 +1,593 @@
 :root {
+  --website-button-color: #240046;
+  --website-nav-menu-text-color: #f8f9fa;
+  --website-hero-title-color: #b9bbb8;
+  --website-title-higlighted-color: #f48c06;
+  --website-shiny-wite-color: #f8f7ff;
+  --website-text-color: #1e2749;
+  --website-section-title-color: #03045e;
 
-    --website-button-color: #240046;
-    --website-nav-menu-text-color: #f8f9fa;
-    --website-hero-title-color: #b9bbb8;
-    --website-title-higlighted-color: #f48c06;
-    --website-shiny-wite-color: #f8f7ff;
-    --website-text-color: #1e2749;
-    --website-section-title-color: #03045e;
+  --website-border-radius: 6px;
+  --website-box-shadow: 0px 5px 7px 1px rgba(0, 0, 0, 0.14);
+  --box-shadow-header: 0px 2px 5px 1px rgba(0, 0, 0, 0.277);
 
+  --small-text-size: 0.9rem;
+  --medium-text-size: 1rem;
+  --mobile-section-heading-size: 2.4rem;
+  --dekstop-section-heading-size: 2rem;
+  --hero-title-mobile: 2.3rem;
+  --hero-title-dekstop: 4rem;
 
-
-    --website-border-radius: 6px;
-    --website-box-shadow: 0px 5px 7px 1px rgba(0, 0, 0, 0.14);
-    --box-shadow-header: 0px 2px 5px 1px rgba(0, 0, 0, 0.277);
-
-
-
-    --small-text-size: 0.90rem;
-    --medium-text-size: 1rem;
-    --mobile-section-heading-size: 2.40rem;
-    --dekstop-section-heading-size: 2rem;
-    --hero-title-mobile: 2.30rem;
-    --hero-title-dekstop: 4rem;
-
-    --font-family-1-rare-used: 'Alex Brush', cursive;
-    --font-family-2-main-title-font: 'DM Serif Display', serif;
-    --font-family-3-helper: 'Kaushan Script', cursive;
-    --font-family-4-website-text: 'Poppins', sans-serif;
+  --font-family-1-rare-used: "Alex Brush", cursive;
+  --font-family-2-main-title-font: "DM Serif Display", serif;
+  --font-family-3-helper: "Kaushan Script", cursive;
+  --font-family-4-website-text: "Poppins", sans-serif;
 }
-
 
 /*mobile device responsive css starts from here================================================*/
 
-@media screen and (min-width:240px) {
+@media screen and (min-width: 240px) {
+  /* nav-bar-section */
 
-    /* nav-bar-section */
+  #open-menu,
+  #close-menu {
+    display: block;
+    color: #240046;
+  }
 
-    #open-menu,
-    #close-menu {
-        display: block;
-        color: #240046;
+  #open-menu {
+    margin-right: 20px;
+  }
+
+  .nav-bar-container {
+    position: fixed;
+    background-color: hsla (180, 12%, 8%, 0.8);
+    backdrop-filter: blur(32px);
+    -webkit-backdrop-filter: blur(32px);
+    right: -100%;
+    top: 0;
+    width: 60%;
+    height: 100%;
+    border-left: 2px solid rgba(128, 128, 128, 0.627);
+    transition: right 0.3s;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+  }
+
+  .show {
+    right: 0;
+  }
+
+  #close-menu {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+
+  .menu-links {
+    color: #03045e;
+  }
+
+  /*--hero--section==================================*/
+
+  .hero-container {
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    background-image: url(/assets/images/mobile-hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .hero-text {
+    width: 80%;
+    z-index: 5;
+  }
+
+  .hero-text-heading {
+    font-size: var(--hero-title-mobile);
+  }
+
+  .swiper {
+    display: none;
+  }
+
+  .hero-mobile-heading {
+    width: 90%;
+  }
+
+  .hero-text-heading {
+    font-size: var(--hero-title-mobile);
+  }
+
+  /*info-section=====================================*/
+
+  .info-card {
+    width: 160px;
+    height: 130px;
+  }
+
+  .info-description {
+    font-size: 11px;
+    width: 90%;
+  }
+
+  .info-cards-container {
+    row-gap: 30px;
+    column-gap: 10px;
+  }
+
+  .info-heading {
+    font-size: 1.5rem;
+  }
+
+  /*our-service-section===============================*/
+
+  .service-card {
+    width: 150px;
+    height: 160px;
+  }
+
+  .service-card p {
+    font-size: 13px;
+  }
+
+  .service-container {
+    margin-top: 20px;
+  }
+
+  .service-heading {
+    padding-top: 10px;
+    font-size: 1.5rem;
+  }
+
+  .service-handler {
+    color: #f8f9fa;
+  }
+
+  /*about-us-section===================================*/
+
+  .about-us-container {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .about-us-image {
+    background-image: url(/businees-img/FIF_2194.webp);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: var(--website-box-shadow);
+    border-top: 4px solid red;
+    border-bottom: 4px solid green;
+    position: relative;
+  }
+
+  .about-us-image::before,
+  .about-us-image::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(315deg, #dd3a66, #7c3add, #3aabdd);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.7;
+  }
+
+  .about-us-image:before {
+    animation: pulse 2s ease-out infinite;
+  }
+
+  .about-us-image:after {
+    animation: pulse 2s 1s ease-out infinite;
+  }
+
+  @keyframes pulse {
+    100% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+
+  .about-us-description {
+    font-family: var(--font-family-4-website-text);
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    padding-inline: 9px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  /*consult-now=======================================*/
+
+  .consult-now {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(315deg, #dd3a66, #7c3add, #3aabdd);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+  }
+
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
     }
 
-    #open-menu {
-        margin-right: 20px;
+    50% {
+      background-position: 100% 50%;
     }
 
-    .nav-bar-container {
-        position: fixed;
-        background-color: hsla (180, 12%, 8%, 0.8);
-        backdrop-filter: blur(32px);
-        -webkit-backdrop-filter: blur(32px);
-        right: -100%;
-        top: 0;
-        width: 60%;
-        height: 100%;
-        border-left: 2px solid rgba(128, 128, 128, 0.627);
-        transition: right 0.3s;
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
     }
 
-    .nav-menu {
-        flex-direction: column;
-        gap: 30px;
-        margin-top: 80px;
+    50% {
+      background-position: 100% 50%;
     }
 
-    .show {
-        right: 0;
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
     }
 
-    #close-menu {
-        position: absolute;
-        left: 20px;
-        top: 20px;
+    50% {
+      background-position: 100% 50%;
     }
 
-    .menu-links {
-        color: #03045e;
+    100% {
+      background-position: 0% 50%;
     }
+  }
 
-    /*--hero--section==================================*/
+  .consult-now-button {
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    font-size: 13px;
+    text-align: center;
+    font-family: var(--font-family-4-website-text);
+  }
 
-    .hero-container {
+  /*-customer-container=================================*/
 
-        width: 100%;
-        height: 500px;
-        justify-content: center;
-        background-image: url(/assets/images/mobile-hero.jpg);
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
-    }
+  .customer-info {
+    padding-block: 20px;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+  }
 
-    .hero-text {
-        width: 80%;
-        z-index: 5;
-    }
+  .customers {
+    width: 160px;
+    height: 150px;
+  }
 
-    .hero-text-heading {
-        font-size: var(--hero-title-mobile);
-    }
+  .customer-des {
+    font-weight: 400;
+    font-size: 12px;
+    width: 95%;
+    color: #f8f7ff;
+  }
 
-    .swiper {
-        display: none;
-    }
+  .customer-container h1 {
+    color: #ff5349;
+  }
 
-    .hero-mobile-heading {
-        width: 90%;
-    }
+  /***************************/
+  .achivement-heading {
+    font-size: var(--mobile-section-heading-size);
+  }
 
-    .hero-text-heading {
-        font-size: var(--hero-title-mobile);
-    }
+  /*review-section*/
+  .review-section {
+    margin-top: 30px;
+  }
 
-    /*info-section=====================================*/
+  .review-heading {
+    width: 85%;
+    font-size: var(--mobile-section-heading-size);
+    line-height: 1.9rem;
+  }
 
-    .info-card {
-        width: 160px;
-        height: 130px;
-    }
+  .review-container {
+    margin-top: 20px;
+    width: 100%;
+    gap: 8px;
+    justify-content: center;
+  }
 
-    .info-description {
-        font-size: 11px;
-        width: 90%;
-    }
+  .review-card {
+    width: 170px;
+    height: 220px;
+  }
 
-    .info-cards-container {
-        row-gap: 30px;
-        column-gap: 10px;
-    }
+  .review-descrip {
+    font-size: 9px;
+  }
 
-    .info-heading {
-        font-size: 1.50rem;
-    }
+  .review-heading {
+    font-size: 1.7rem;
+  }
 
-    /*our-service-section===============================*/
+  .review-img {
+    width: 30px;
+  }
 
-    .service-card {
-        width: 150px;
-        height: 160px;
-    }
+  .first-title {
+    font-size: 10px;
+  }
+  .second-title {
+    font-size: 8px;
 
-    .service-card p {
-        font-size: 13px;
-    }
+  }
+  
+.review-descrip {
+    font-size: 9px;
+    padding-top: 9px;
+    padding-left: 10px;
+}
 
-    .service-container {
-        margin-top: 20px;
-    }
-
-    .service-heading {
-        padding-top: 10px;
-        font-size: 1.50rem;
-    }
-
-    .service-handler {
-        color: #f8f9fa;
-    }
-
-
-    /*about-us-section===================================*/
-
-    .about-us-container {
-        flex-direction: column;
-        position: relative;
-    }
-
-    .about-us-image {
-
-        background-image: url(/businees-img/FIF_2194.webp);
-        background-position: center;
-        background-size: cover;
-        height: 150px;
-        width: 150px;
-        margin-top: 20px;
-        border: 3px solid white;
-        border-radius: 50%;
-        box-shadow: var(--website-box-shadow);
-        border-top: 4px solid red;
-        border-bottom: 4px solid green;
-        position: relative;
-
-    }
-
-    .about-us-image::before,
-    .about-us-image::after {
-        content: "";
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background: linear-gradient(315deg, #dd3a66, #7c3add, #3aabdd);
-        border-radius: 50%;
-        z-index: -1;
-        opacity: 0.7;
-    }
-
-    .about-us-image:before {
-        animation: pulse 2s ease-out infinite;
-    }
-
-    .about-us-image:after {
-        animation: pulse 2s 1s ease-out infinite;
-    }
-
-    @keyframes pulse {
-        100% {
-            transform: scale(1.5);
-            opacity: 0;
-        }
-    }
-
-    .about-us-description {
-        font-family: var(--font-family-4-website-text);
-        width: 100%;
-        text-align: center;
-        font-size: 13px;
-        padding-inline: 9px;
-        font-weight: 500;
-        padding-bottom: 20px;
-        margin-top: 20px;
-    }
-
-    /*consult-now=======================================*/
-
-    .consult-now {
-        width: 100%;
-        height: 60px;
-        position: fixed;
-        bottom: 0;
-        background: linear-gradient(315deg, #dd3a66, #7c3add, #3aabdd);
-        background-size: 600% 600%;
-        -webkit-animation: AnimationName 30s ease infinite;
-        -moz-animation: AnimationName 30s ease infinite;
-        animation: AnimationName 30s ease infinite;
-    }
-
-    @-webkit-keyframes AnimationName {
-
-        0% {
-            background-position: 0% 50%
-        }
-
-        50% {
-            background-position: 100% 50%
-        }
-
-        100% {
-            background-position: 0% 50%
-        }
-    }
-
-    @-moz-keyframes AnimationName {
-        0% {
-            background-position: 0% 50%
-        }
-
-        50% {
-            background-position: 100% 50%
-        }
-
-        100% {
-            background-position: 0% 50%
-        }
-    }
-
-    @keyframes AnimationName {
-        0% {
-            background-position: 0% 50%
-        }
-
-        50% {
-            background-position: 100% 50%
-        }
-
-        100% {
-            background-position: 0% 50%
-        }
-    }
-
-    .consult-now-button {
-
-        color: whitesmoke;
-        width: 100%;
-        height: 100%;
-        line-height: 60px;
-        font-size: 13px;
-        text-align: center;
-        font-family: var(--font-family-4-website-text);
-
-    }
-
-    /*-customer-container=================================*/
-
-    .customer-info {
-
-        padding-block: 20px;
-        column-gap: 10px;
-        row-gap: 10px;
-        flex-wrap: wrap;
-
-    }
-
-
-    .customers {
-
-        width: 160px;
-        height: 150px;
-    }
-
-    .customer-des {
-
-        font-weight: 400;
-        font-size: 12px;
-        width: 95%;
-        color: #f8f7ff;
-
-    }
-
-    .customer-container h1 {
-        color: #ff5349;
-    }
-
-    /***************************/
-    .achivement-heading {
-        font-size: var(--mobile-section-heading-size);
-    }
-
-    /*review-section*/
-    .review-section {
-        margin-top: 30px;
-    }
-    .review-heading {
-        width: 85%;
-        font-size: var(--mobile-section-heading-size);
-        line-height: 1.90rem;
-
-    }
-
-    .review-container {
-        margin-top: 20px;
-        width: 100%;
-        gap: 8px;
-        justify-content: center;
-    }
-
-    .review-card {
-        width: 170px;
-        height: 220px;
-    }
-    .review-descrip{
-        font-size: 9px;
-    }
-
-    .review-heading {
-        font-size:1.70rem;
-    }
+.redmore{
+    font-size: 11px;
+}
 
 
 }
 
 /*dekstop devices responsive css starts here*/
 
-@media screen and (min-width:1049px) {
+@media screen and (min-width: 1049px) {
+  .service-heading {
+    font-size: 2rem;
+  }
 
+  .service-card {
+    height: 180px;
+    width: 150px;
+  }
 
-    .service-heading {
-        font-size: 2rem;
-    }
+  .service-container {
+    width: 700px;
+    flex-wrap: wrap;
+  }
 
-    .service-card {
-        height: 180px;
-        width: 150px;
-    }
+  /*info-section=================================*/
 
+  .info-card {
+    width: 200px;
+    height: 150px;
+  }
 
-    .service-container {
-        width: 700px;
-        flex-wrap: wrap;
-    }
+  .info-img {
+    width: 70px;
+  }
 
-    /*info-section=================================*/
+  .info-heading {
+    font-size: 2rem;
+  }
 
-    .info-card {
-        width: 200px;
-        height: 150px;
-    }
+  /*about-us=====================================*/
 
-    .info-img {
-        width: 70px;
-    }
+  .about-us-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+  }
 
-    .info-heading {
-        font-size: 2rem;
-    }
+  .about-us-image {
+    border-radius: 8px;
+    width: 600px;
+    height: 400px;
+    border: none;
+  }
 
-    /*about-us=====================================*/
+  .about-us-image::before,
+  .about-us-image::after {
+    display: none;
+  }
 
-    .about-us-container {
-        flex-direction: row;
-        justify-content: space-evenly;
-        position: relative;
-    }
+  .about-us-text-box {
+    width: 50%;
+  }
 
-    .about-us-image {
-        border-radius: 8px;
-        width: 600px;
-        height: 400px;
-        border: none;
-    }
+  .about-us-description {
+    font-size: 17px;
+    margin-top: 30px;
+  }
 
-    .about-us-image::before,
-    .about-us-image::after {
-        display: none;
-    }
+  .about-us-text-box :is(h1) {
+    font-size: 35px;
+  }
 
-    .about-us-text-box {
-        width: 50%;
-    }
+  /*nav and header================================*/
 
-    .about-us-description {
-        font-size: 17px;
-        margin-top: 30px;
-    }
+  #open-menu,
+  #close-menu {
+    display: none;
+  }
 
-    .about-us-text-box :is(h1) {
-        font-size: 35px;
-    }
+  .nav-bar-container {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    backdrop-filter: none;
+    right: 0;
+    height: auto;
+    width: auto;
+    z-index: 0;
+  }
 
-    /*nav and header================================*/
+  .nav-menu {
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 0;
+    margin-right: 20px;
+  }
 
-    #open-menu,
-    #close-menu {
-        display: none;
-    }
+  .main-header {
+    height: 70px;
+  }
 
-    .nav-bar-container {
-        position: relative;
-        background-color: transparent;
-        border: none;
-        backdrop-filter: none;
-        right: 0;
-        height: auto;
-        width: auto;
-        z-index: 0;
-    }
+  .button-links {
+    height: 3rem;
+    line-height: 3rem;
+  }
 
-    .nav-menu {
+  .menu-links {
+    color: #240046;
+  }
 
-        flex-direction: row;
-        gap: 30px;
-        margin-top: 0;
-        margin-right: 20px;
+  /*hero-section================================*/
 
-    }
+  .swiper {
+    display: block;
+  }
 
-    .main-header {
+  .hero-text-heading {
+    font-size: var(--hero-title-dekstop);
+  }
 
-        height: 70px;
-    }
+  .animated-text {
+    font-size: var(--hero-title-dekstop);
+  }
 
-    .button-links {
-        height: 3rem;
-        line-height: 3rem;
-    }
+  .hero-container {
+    background-image: none;
+  }
 
-    .menu-links {
-        color: #240046;
-    }
+  .swiper {
+    width: 100%;
+    margin-bottom: 80px;
+  }
 
-    /*hero-section================================*/
+  .swiper-slide {
+    background-image: url(/assets/images/dekstop-hero-4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+  }
 
-    .swiper {
-        display: block;
-    }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .hero-text-heading {
-        font-size: var(--hero-title-dekstop);
-    }
+  .hero-mobile-heading {
+    display: none;
+  }
 
-    .animated-text {
-        font-size: var(--hero-title-dekstop);
-    }
+  /*--consult-now-sticky-section-----------------*/
 
-    .hero-container {
-        background-image: none;
-    }
+  .consult-now {
+    display: none;
+  }
 
-    .swiper {
-        width: 100%;
-        margin-bottom: 80px;
-    }
+  /*achivment-section-------*/
 
-    .swiper-slide {
-        background-image: url(/assets/images/dekstop-hero-4.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 600px;
-        position: relative;
-    }
+  .customer-info {
+    gap: 30px;
+  }
 
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .customers {
+    width: 200px;
+    border-radius: 15px;
+    border: 3px solid whitesmoke;
+  }
 
-    .hero-mobile-heading {
-        display: none;
-    }
+  .customer-des {
+    width: 95%;
+    color: #f8f7ff;
+    padding-inline: 5px;
+    font-weight: 500;
+    font-size: 13px;
+  }
 
-    /*--consult-now-sticky-section-----------------*/
+  .customer-container {
+    background-size: contain;
+    background: linear-gradient(
+      346deg,
+      rgba(255, 119, 34, 1) 30%,
+      rgba(255, 26, 26, 1) 61%
+    );
+  }
 
-    .consult-now {
+  .customer-container h1 {
+    color: #240046;
+  }
 
-        display: none;
-    }
+  /*-----award-section------*/
 
+  .achivement-heading {
+    font-size: 2rem;
+  }
 
-    /*achivment-section-------*/
+  /*review-section*/
+  .review-container {
+    max-width: 1100px;
+  }
 
-    .customer-info {
-        gap: 30px;
-    }
+  .review-card {
+    width: 250px;
+    height: 200px;
+  }
 
-    .customers {
-        width: 200px;
-        border-radius: 15px;
-        border: 3px solid whitesmoke;
+  .review-descrip {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 10px;
+  }
 
-    }
+  .first-title {
+    font-size: 11px;
+  }
 
-    .customer-des {
-        width: 95%;
-        color: #f8f7ff;
-        padding-inline: 5px;
-        font-weight: 500;
-        font-size: 13px;
-    }
+  .second-title {
+    font-size: 9px;
+  }
 
-    .customer-container {
-        background-size: contain;
-        background: linear-gradient(346deg, rgba(255, 119, 34, 1) 30%, rgba(255, 26, 26, 1) 61%);
+  .redmore {
+    font-size: 10px;
+  }
 
-    }
+  .review-heading {
+    font-size: var(--dekstop-section-heading-size);
+  }
 
-    .customer-container h1 {
-        color: #240046;
-    }
-
-    /*-----award-section------*/
-
-    .achivement-heading {
-        font-size: 2rem;
-    }
-
-    /*review-section*/
-    .review-container {
-        max-width: 1100px;
-
-    }
-
-    .review-card {
-        width: 250px;
-        height: 200px;
-
-    }
-
-    .review-descrip {
-        font-size: 10px;
-    }
-
-
-
+  .review-img {
+    width: 30px;
+  }
 }
