@@ -91,7 +91,7 @@ span {
 .helper {
     font-family: var(--font-family-2-main-title-font);
     color: var(--website-title-higlighted-color);
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
