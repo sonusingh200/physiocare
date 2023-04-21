@@ -69,6 +69,7 @@
   }
 
   .menu-links {
+    color: var(--website-button-color);
   }
 
   /*--hero--section==================================*/
@@ -91,6 +92,7 @@
 
   .hero-text-heading {
     font-size: var(--hero-title-mobile);
+    color: whitesmoke;
   }
 
   .swiper {
@@ -458,7 +460,7 @@
   }
 
   .menu-links {
-    color: #35024f;
+    color: var(--website-button-color);
 
   }
 
