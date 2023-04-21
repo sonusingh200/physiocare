@@ -2,7 +2,7 @@
 
     --website-button-color: #240046;
     --website-nav-menu-text-color: #f8f9fa;
-    --website-hero-title-color: #b9bbb8;
+    --website-hero-title-color: #d6d8d5f4;
     --website-title-higlighted-color: #f48c06;
     --website-shiny-wite-color: #f8f7ff;
     --website-text-color: #1e2749;
@@ -58,7 +58,6 @@ a {
     text-decoration: none;
     cursor: pointer;
     font-family: var(--font-family-4-website-text);
-    background-color: transparent;
 }
 
 span {
@@ -206,7 +205,7 @@ span {
 .menu-links {
 
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #open-menu,
@@ -243,10 +242,10 @@ span {
 
 .hero-text-heading {
 
-    color: var(--website-hero-title-color);
     font-weight: 700;
     text-align: center;
     width: 100%;
+    z-index: 1;
 
 }
 
@@ -359,7 +358,7 @@ span {
 
 .about-us-container {
 
-    background-image: url(/assets/images/lkkk.png);
+    background-image: url(/assets/images/lkkk.webp);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: 500px;
@@ -385,7 +384,7 @@ span {
 .customer-container {
     padding-top: 20px;
     width: 100%;
-    background-image: url(/assets/images/5386459.jpg);
+    background-image: url(/assets/images/achivement.webp);
     margin-top: 30px;
     background-size: cover;
     background-position: center center;
