@@ -562,12 +562,13 @@
 
   .review-card {
     width: 250px;
-    height: 180px;
+    height: 200px;
   }
 
   .review-descrip {
     padding-top: 10px;
     padding-left: 10px;
+    padding-right: 10px;
     font-size: 10px;
   }
 
