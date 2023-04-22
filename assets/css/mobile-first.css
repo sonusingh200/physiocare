@@ -328,6 +328,8 @@ span {
     padding-top: 20px;
     background-color: #ffc9b9;
     box-shadow: var(--website-box-shadow);
+    flex-direction: column;
+    justify-content: center;
 }
 
 .service-card p {
@@ -340,7 +342,7 @@ span {
 }
 
 .service-img {
-    width: 70px;
+    width: 60px;
     display: block;
     margin-inline: auto;
 }
