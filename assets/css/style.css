@@ -129,6 +129,7 @@
   .service-card {
     width: 150px;
     height: 160px;
+    flex-direction: column;
   }
 
   .service-card p {
