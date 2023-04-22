@@ -328,7 +328,6 @@ span {
     padding-top: 20px;
     background-color: #ffc9b9;
     box-shadow: var(--website-box-shadow);
-    flex-direction: column;
     justify-content: center;
 }
 
