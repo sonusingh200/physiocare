@@ -448,10 +448,9 @@ span {
 
 .review-card {
 
-    background-color:#F8F9FA;
+    background-color:#F0F8FB;
     border-radius: 10px;
     box-shadow: 0px 6px 10px 1px rgba(128, 128, 128, 0.732);
-    padding-left: 10px;
     
 }
 
@@ -475,6 +474,7 @@ span {
 
 .review-descrip {
     font-family: var(--font-family-4-website-text);
+    padding-left: 10px;
 }
 
 .redmore {
@@ -492,6 +492,7 @@ span {
 
 .stars {
     padding-top: 5px;
+    padding-left: 10px;
     padding-left: 10px;
 }
 
