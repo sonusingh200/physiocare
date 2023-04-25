@@ -343,20 +343,21 @@
   .first-title {
     font-size: 10px;
   }
+
   .second-title {
     font-size: 8px;
 
   }
-  
-.review-descrip {
+
+  .review-descrip {
     font-size: 9px;
     padding-top: 9px;
     padding-left: 10px;
-}
+  }
 
-.redmore{
+  .redmore {
     font-size: 11px;
-}
+  }
 
 
 }
@@ -499,29 +500,33 @@
     position: relative;
   }
 
-  .img-one{
+  .img-one {
 
     background-image: url(/assets/images/dekstop-hero-4.webp);
 
 
   }
-  .img-two{
+
+  .img-two {
     background-image: url(/assets/images/dekstop-hero-2-1.webp);
 
   }
-  .img-three{
+
+  .img-three {
     background-image: url(/assets/images/dekstop-hero-3.webp);
 
   }
-  .img-four{
+
+  .img-four {
     background-image: url(/assets/images/dekstop-hero-6.webp);
 
   }
-  .img-five{
+
+  .img-five {
     background-image: url(/assets/images/dekstop-hero-5.webp);
 
   }
-  
+
 
   .swiper-slide {
     text-align: center;
@@ -563,11 +568,9 @@
 
   .customer-container {
     background-size: contain;
-    background: linear-gradient(
-      346deg,
-      rgba(255, 119, 34, 1) 30%,
-      rgba(255, 26, 26, 1) 61%
-    );
+    background: linear-gradient(346deg,
+        rgba(255, 119, 34, 1) 30%,
+        rgba(255, 26, 26, 1) 61%);
   }
 
   .customer-container h1 {
