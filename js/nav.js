@@ -41,7 +41,7 @@ const swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
-        delay: 4500,
+        delay: 2500,
         disableOnInteraction: false,
     },
     pagination: {
@@ -54,3 +54,8 @@ const swiper = new Swiper(".mySwiper", {
     },
 });
 
+/*scroll animation*/
+
+AOS.init({
+   duration:2500,
+});

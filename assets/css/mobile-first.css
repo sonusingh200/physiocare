@@ -111,6 +111,13 @@ span {
     }
 }
 
+.hero-slide {
+    font-size: 3rem;
+    color: #fceedb;
+    z-index: 10;
+
+}
+
 /*footerbar============================================*/
 
 .footer-container {
@@ -188,7 +195,8 @@ span {
 
 .bg-header {
     background-color: #F9F0E8;
-    box-shadow: var(--box-shadow-header);
+    box-shadow: 0px 10px 10px 1px rgba(128, 128, 128, 0.255);
+
 }
 
 .main-header {
@@ -199,7 +207,7 @@ span {
     left: 0;
     justify-content: space-between;
     z-index: 100;
-
+    background-color: #F9F0E8;
 }
 
 .menu-links {
@@ -230,6 +238,9 @@ span {
 }
 
 /*hero-section===========================================*/
+.hero-container {
+    position: absolute;
+}
 
 .swiper-slide::before,
 .hero-container:before {
@@ -256,12 +267,6 @@ span {
 
 
 /*info-section============================================*/
-
-.info-container {
-    width: 100%;
-    height: auto;
-    margin-top: 40px;
-}
 
 .info-cards-container {
     margin-top: 30px;
@@ -439,61 +444,6 @@ span {
     justify-content: center;
     flex-direction: column;
     margin-bottom: 20px;
-}
-
-.review-container {
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.review-card {
-
-    background-color:#F0F8FB;
-    border-radius: 10px;
-    box-shadow: 0px 6px 10px 1px rgba(128, 128, 128, 0.732);
-    
-}
-
-
-.image-tittle {
-    column-gap: 10px;
-    padding-left: 10px;
-    padding-top: 30px;
-}
-
-.first-title {
-
-    font-family: var(--font-family-4-website-text);
-}
-
-.second-title {
-
-    font-family: var(--font-family-4-website-text);
-
-}
-
-.review-descrip {
-    font-family: var(--font-family-4-website-text);
-    padding-left: 10px;
-}
-
-.redmore {
-    padding-top: 5px;
-    font-family: var(--font-family-4-website-text);
-    padding-left: 10px;
-    color: #f48c06;
-
-}
-
-.stars i {
-    font-size: 10px;
-    color: #f48c06;
-}
-
-.stars {
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-left: 10px;
 }
 
 /*************************************************/
