@@ -17,7 +17,7 @@
 
     --small-text-size: 0.90rem;
     --medium-text-size: 1rem;
-    --mobile-section-heading-size: 1.90rem;
+    --mobile-section-heading-size: 1.5rem;
     --dekstop-section-heading-size: 2rem;
     --hero-title-mobile: 2.20rem;
     --hero-title-dekstop: 4rem;
@@ -417,9 +417,7 @@ span {
 }
 
 .customers-icon {
-
     width: 50px;
-
 }
 
 
@@ -444,6 +442,7 @@ span {
     justify-content: center;
     flex-direction: column;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 /*************************************************/
