@@ -308,14 +308,12 @@
   }
 
   /**********************************************************************/
-  .achivement-heading {
-    font-size:1.5rem;
-  }
+  
 
   /*review-section**************************************************/
 
   .review-heading {
-    font-size:1.5rem;
+    font-size: 1.5rem;
   }
 
 }
@@ -323,7 +321,7 @@
 /*dekstop devices responsive css starts here*/
 
 @media screen and (min-width: 1049px) {
-  
+
   .service-heading {
     font-size: 2rem;
   }
@@ -522,5 +520,9 @@
   /*review-section----------------------------------*/
   .review-container {
     max-width: 1100px;
+  }
+
+  .review-heading {
+    font-size: 2rem;
   }
 }
