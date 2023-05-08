@@ -333,6 +333,14 @@
     z-index: -1;
   }
 
+  #gallery-img {
+    display: block;
+    object-fit: cover;
+    object-position: top left;
+    height: 100%;
+    border-radius: 8px;
+  }
+
 }
 
 /*dekstop devices responsive css starts here*/
@@ -534,12 +542,20 @@
   }
 
   .gallery-container {
+    margin-top: 20px;
     max-width: 1100px;
   }
 
   .item {
     width: 250px;
     height: 250px;
+    border-radius: 8px;
+  }
+
+  #gallery-img {
+    display: block;
+    object-fit: cover;
+    object-position:top center;
     border-radius: 8px;
   }
 }
