@@ -307,13 +307,28 @@
     color: #ff5349;
   }
 
-  /**********************************************************************/
-  
+  /*************************************/
 
-  /*review-section**************************************************/
-
-  .review-heading {
+  .gallery-heading {
     font-size: 1.5rem;
+  }
+  .gallery-section{
+    margin-bottom: 20px;
+  }
+
+  .item {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+  }
+
+  .gallery-container{
+    width:100%;
+    padding-inline: 10px;
+  }
+
+  .owl-stage , .owl-carousel{
+    z-index: -1;
   }
 
 }
@@ -511,18 +526,14 @@
     color: #240046;
   }
 
-  /*-----award-section-----------------------------*/
-
-  .achivement-heading {
+  /*gallery-section*/
+  .gallery-heading {
     font-size: 2rem;
   }
 
-  /*review-section----------------------------------*/
-  .review-container {
-    max-width: 1100px;
-  }
-
-  .review-heading {
-    font-size: 2rem;
+  .item {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
   }
 }
