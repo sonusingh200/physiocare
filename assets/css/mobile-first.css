@@ -487,11 +487,15 @@ span {
 #gallery-img{
     display: block;
     object-fit: cover;
+    object-position: top left;
     height: 100%;
     border-radius: 8px;
 }
 .owl-stage{
     width: 100%;
+}
+.item{
+    background-color: white;
 }
 
 
