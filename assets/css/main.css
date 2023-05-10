@@ -122,29 +122,6 @@ span {
 
 /*footerbar============================================*/
 
-.footer-container {
-    width: 100%;
-    background-color: var(--website-button-color);
-    justify-content: center;
-    height: auto;
-    justify-content: center;
-    gap: 20px;
-    padding-block: 20px;
-
-}
-
-.sec {
-    width: 200px;
-    height: auto;
-}
-
-.service-links {
-    color: whitesmoke;
-    font-size: 12px;
-    font-family: var(--font-family-4-website-text);
-    flex-direction: column;
-    row-gap: 20px;
-}
 
 .footer-c-bar {
 
@@ -434,63 +411,33 @@ span {
     font-family: var(--font-family-4-website-text);
     text-align: center;
 }
-/*review-section=========================================*/
 
-.review-section {
+/******gallery-section**************************************/
+
+.gallery-section {
     width: 100%;
-    margin-top: 30px;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+}
+
+.gallery-heading {
+    padding-top: 15px;
+}
+
+.owl-stage {
+    width: 100%;
 }
 
 .item {
-    border-radius: 10px;
-    width: 250px;
-    height: 150px;
-    background: blueviolet;
-    box-shadow: 0 10px 10px 1px rgba(128, 128, 128, 0.447);
-}
+    background-color: white;
+    box-shadow: var(--box-shadow-header);
 
-.review-card-container {
-    max-width: 1100px;
-    margin-top: 20px;
 }
-
+.owl-dots{
+    display: none;
+}
 .owl-stage {
 
     margin-bottom: 20px;
 }
-
-.owl-dots {
-    display: none;
-}
-
-.image-container img{
-    width: 30px;
-}
-.review-name{
-    font-size: 14px;
-    font-family: var(--font-family-4-website-text);
-    font-size: 400;
-}
-
-/*************************************************/
-.gallery-section{
-    width: 100%;
-    justify-content: center;
-    flex-direction: column;
-}
-.gallery-heading{
-    padding-top: 15px;
-}
-
-.owl-stage{
-    width: 100%;
-}
-.item{
-    background-color: white;
-}
-/***************************************/
-
-
-
+/******************************************/

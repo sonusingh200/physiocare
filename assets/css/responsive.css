@@ -557,10 +557,11 @@
   }
 
   .item {
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 230px;
     border-radius: 8px;
   }
+
 
   #gallery-img {
     display: block;
