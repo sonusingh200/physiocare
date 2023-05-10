@@ -526,10 +526,20 @@
   }
 
   .customer-container {
-    background-size: contain;
-    background: linear-gradient(346deg,
-        rgba(255, 119, 34, 1) 30%,
-        rgba(255, 26, 26, 1) 61%);
+    background-image: url(/assets/images/doctor-helping-patient-during-rehabilitation.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+
+  .customer-container::before{
+    content: "";
+    background-color: #24004638;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 
   .customer-container h1 {
