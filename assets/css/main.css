@@ -290,7 +290,7 @@ span {
     top: -20px;
 }
 
-/*our-service-section=======*/
+/***our-service-section***/
 
 .service-section {
     margin-top: 40px;
@@ -433,11 +433,23 @@ span {
     box-shadow: var(--box-shadow-header);
 
 }
-.owl-dots{
+
+.owl-dots {
     display: none;
 }
+
 .owl-stage {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 /******************************************/
+.review-section{
+    width: 100%;
+    height: 400px;
+    
+}
+.review-section{
+    background-color: #f48c06;
+    margin-bottom: 20px;
+}
