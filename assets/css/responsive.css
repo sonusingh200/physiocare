@@ -323,7 +323,7 @@
     border-radius: 8px;
   }
 
-  .gallery-container{
+  .gallery-container {
     width: 95%;
   }
 
@@ -340,9 +340,15 @@
     border-radius: 8px;
   }
 
-  .review-container{
+  .review-container {
     z-index: -1;
   }
+
+  .review-heading {
+
+    font-size: 1.5rem;
+  }
+
 
 }
 
@@ -569,6 +575,11 @@
     object-fit: cover;
     object-position: top center;
     border-radius: 8px;
+  }
+
+  /*review-heading*/
+  .review-heading {
+    font-size: 2rem;
   }
 
 }
