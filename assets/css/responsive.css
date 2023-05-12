@@ -340,6 +340,10 @@
     border-radius: 8px;
   }
 
+  .review-container{
+    z-index: -1;
+  }
+
 }
 
 /*dekstop devices responsive css starts here*/
