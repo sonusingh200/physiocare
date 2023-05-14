@@ -570,7 +570,7 @@
     color: #240046;
   }
 
-  /*gallery-section*/
+  /*gallery-section********************************/
   .gallery-heading {
     font-size: 2rem;
   }
@@ -592,12 +592,12 @@
     border-radius: 8px;
   }
 
-  /*review-heading*/
+  /*review-heading*******************************/
   .review-heading {
     font-size: 2rem;
   }
 
-  /******************************************/
+  /***footer***************************************/
   .footer-main {
     max-width: 100%;
     flex-direction: row;
