@@ -349,6 +349,21 @@
     font-size: 1.5rem;
   }
 
+  /*footer-container*/
+
+  .ftr {
+    width: 170px;
+    height: 200px;
+  }
+
+
+  .footer-main {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
 
 }
 
@@ -580,6 +595,19 @@
   /*review-heading*/
   .review-heading {
     font-size: 2rem;
+  }
+
+  /******************************************/
+  .footer-main {
+    max-width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .ftr {
+    width: 200px;
+    height: 200px;
   }
 
 }
