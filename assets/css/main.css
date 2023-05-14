@@ -444,14 +444,14 @@ span {
     margin-bottom: 20px;
 }
 
-/******************************************/
+/****review-section**************************************/
 .review-section {
     width: 100%;
     height: 400px;
     flex-direction: column;
 }
 
-/***********************************************/
+/*****footer-section******************************************/
 
 .footer-container {
     height: auto;
@@ -463,9 +463,4 @@ span {
 
 .footer-main {
     margin-block: 20px;
-}
-
-
-.ftr {
-    border: 1.5px solid rgba(245, 245, 245, 0.329);
 }
