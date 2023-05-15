@@ -349,13 +349,12 @@
     font-size: 1.5rem;
   }
 
-  /*footer-container*/
+  /*footer-container**************************/
 
   .ftr {
-    width: 170px;
+    width: 180px;
     height: 200px;
   }
-
 
   .footer-main {
     height: auto;
@@ -364,9 +363,8 @@
     gap: 20px;
   }
 
-  /*FAQ-SECTION*******************************/
-  
 
+  /*FAQ-SECTION*******************************/
 
 }
 
@@ -604,25 +602,20 @@
   .faq-heading {
     font-size: 2rem;
   }
-  .accordion{
-    margin-top: 20px;
-  }
-  .faq-width{
-    width: 85%;
-  }
 
   /***footer***************************************/
   .footer-main {
-    max-width: 100%;
+    width: 100%;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
   }
 
   .ftr {
-    width: 200px;
+    width: 240px;
     height: 200px;
   }
+
 
 
 }
