@@ -366,7 +366,8 @@
 
   /*FAQ-SECTION*******************************/
   .faq-width{
-    width: 85%;
+    width: 95%;
+    z-index: -1;
   }
 
 
