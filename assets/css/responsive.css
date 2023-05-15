@@ -597,6 +597,14 @@
     font-size: 2rem;
   }
 
+  /**********************************************/
+  .faq-heading {
+    font-size: 2rem;
+  }
+  .accordion{
+    margin-top: 20px;
+  }
+
   /***footer***************************************/
   .footer-main {
     max-width: 100%;
@@ -609,5 +617,6 @@
     width: 200px;
     height: 200px;
   }
+
 
 }
