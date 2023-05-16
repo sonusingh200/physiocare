@@ -80,7 +80,7 @@ span {
     justify-content: center;
 }
 
-.pad-right{
+.pad-right {
     padding-right: 5px;
     color: #f66e48;
     font-size: 12px;
@@ -475,42 +475,7 @@ span {
     margin-block: 20px;
 }
 
-.section-one {
-    flex-direction: column;
-    justify-content: left;
-}
 
-.footer-logo {
-    padding-top: 20px;
-    width: 100%;
-}
-
-.footer-logo-icon {
-    width: 30px;
-}
-
-.footer-logo-text {
-    width: 100px;
-}
-.adress {
-    font-family: var(--font-family-4-website-text);
-    font-size: 10px;
-    margin-bottom: 0;
-    padding-top: 12px;
-    color: #f8f7ff;
-    padding-bottom: 5px;
-}
-.mail , .call , .time{
-    font-family: var(--font-family-4-website-text);
-    font-size: 10px;
-    color: #f8f7ff;
-    margin-bottom: 0;
-    padding-bottom: 5px;
-
-}
-.footer-info{
-    padding-left: 10px;
-}
 
 
 /***FAQ-SECTION**************************************/
