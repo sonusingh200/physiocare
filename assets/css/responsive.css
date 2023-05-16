@@ -214,6 +214,15 @@
     font-weight: 500;
     padding-bottom: 20px;
     margin-top: 20px;
+    border: 1.5px solid rgba(128, 128, 128, 0.218);
+    padding-top: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .about-us-heading{
+    margin-top: 30px;
   }
 
   /*consult-now=======================================*/
@@ -434,13 +443,20 @@
 
   .about-us-description {
     font-size: 17px;
-    margin-top: 30px;
+    margin-top: 20px;
+    border: 1.5px solid rgba(128, 128, 128, 0.218);
+    padding-top: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 
   .about-us-text-box :is(h1) {
     font-size: 35px;
   }
-
+  .about-us-heading{
+    margin-top: 30px;
+  }
   /*nav and header================================*/
 
   #open-menu,
