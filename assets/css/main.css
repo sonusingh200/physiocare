@@ -441,13 +441,13 @@ span {
 
 .wrapper {
     width: 100%;
-    z-index: -1;
 }
 
 .carousel {
     max-width: 1200px;
     margin: auto;
     padding: 0 30px;
+    z-index: -10;
 }
 
 .carousel .card {
@@ -458,7 +458,6 @@ span {
     font-size: 90px;
     font-weight: 600;
     border-radius: 10px;
-    z-index: -1;
 }
 
 
