@@ -327,10 +327,6 @@
     margin-bottom: 20px;
   }
 
-  .carousel {
-    max-width: 85%;
-  }
-
   #gallery-img {
     display: block;
     object-fit: cover;
@@ -339,6 +335,11 @@
     border-radius: 8px;
   }
 
+  .owl-dots{
+    display: none;
+  }
+
+  /***********************************************************************/
   .review-container {
     z-index: -1;
   }
@@ -585,23 +586,11 @@
     font-size: 2rem;
   }
 
-  .item {
-    width: 260px;
-    height: 230px;
-    border-radius: 8px;
-  }
-
   #gallery-img {
     display: block;
     object-fit: cover;
     object-position: top center;
     border-radius: 8px;
-  }
-
-  .carousel {
-    max-width: 1165px;
-    margin: auto;
-    padding: 0 30px;
   }
 
   /*review-heading*******************************/
