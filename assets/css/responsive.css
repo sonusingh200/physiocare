@@ -222,7 +222,7 @@
     -webkit-backdrop-filter: blur(10px);
   }
 
-  .about-us-heading{
+  .about-us-heading {
     margin-top: 30px;
   }
 
@@ -327,16 +327,8 @@
     margin-bottom: 20px;
   }
 
-  .item {
-    width: 160px;
-    height: 170px;
-    border-radius: 8px;
-  }
-
-
-  .owl-stage,
-  .owl-carousel {
-    z-index: -1;
+  .carousel {
+    max-width: 85%;
   }
 
   #gallery-img {
@@ -452,9 +444,11 @@
   .about-us-text-box :is(h1) {
     font-size: 35px;
   }
-  .about-us-heading{
+
+  .about-us-heading {
     margin-top: 30px;
   }
+
   /*nav and header================================*/
 
   #open-menu,
@@ -586,10 +580,10 @@
   }
 
   /*gallery-section********************************/
+
   .gallery-heading {
     font-size: 2rem;
   }
-
 
   .item {
     width: 260px;
@@ -602,6 +596,12 @@
     object-fit: cover;
     object-position: top center;
     border-radius: 8px;
+  }
+
+  .carousel {
+    max-width: 1165px;
+    margin: auto;
+    padding: 0 30px;
   }
 
   /*review-heading*******************************/
@@ -626,7 +626,7 @@
     width: 240px;
     height: 200px;
   }
-  
+
 
 
 }

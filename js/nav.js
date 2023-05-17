@@ -60,7 +60,7 @@ $(".carousel").owlCarousel({
     margin: 20,
     loop: true,
     autoplay: true,
-    autoplayTimeout: 3000,
+    autoplayTimeout: 4000,
     autoplayHoverPause: true,
     responsive: {
         0: {
@@ -93,7 +93,7 @@ accordionContent.forEach((item, index) => {
             description.style.height = "0px";
             item.querySelector("i").classList.replace("fa-minus", "fa-plus");
         }
-        removeOpen(index); //calling the funtion and also passing the index number of the clicked header
+        removeOpen(index);
     })
 })
 function removeOpen(index1) {
