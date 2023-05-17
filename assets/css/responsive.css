@@ -176,6 +176,7 @@
     border-top: 4px solid red;
     border-bottom: 4px solid green;
     position: relative;
+
   }
 
   .about-us-image::before,
@@ -332,9 +333,6 @@
     border-radius: 8px;
   }
 
-  .gallery-container {
-    width: 95%;
-  }
 
   .owl-stage,
   .owl-carousel {
@@ -592,9 +590,6 @@
     font-size: 2rem;
   }
 
-  .gallery-container {
-    max-width: 1100px;
-  }
 
   .item {
     width: 260px;

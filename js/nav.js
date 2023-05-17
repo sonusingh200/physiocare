@@ -54,34 +54,31 @@ const swiper = new Swiper(".mySwiper", {
     },
 });
 
-//owl js ..........//
-const owl = $('.owl-carousel');
-owl.owlCarousel({
-    items: 4,
+//owl*js***************//
+
+$(".carousel").owlCarousel({
+    margin: 20,
     loop: true,
-    margin: 5,
     autoplay: true,
-    autoplayTimeout: 3500,
+    autoplayTimeout: 3000,
     autoplayHoverPause: true,
     responsive: {
         0: {
-            items: 1
+            items: 1,
+            nav: false
         },
-        240: {
-            items: 2
+        600: {
+            items: 2,
+            nav: false
         },
         1000: {
-            items: 4
+            items: 4,
+            nav: false
         }
     }
 });
 
-$('.play').on('click', function () {
-    owl.trigger('play.owl.autoplay', [1000])
-})
-$('.stop').on('click', function () {
-    owl.trigger('stop.owl.autoplay')
-})
+/***/
 
 const accordionContent = document.querySelectorAll(".accordion-content");
 accordionContent.forEach((item, index) => {
