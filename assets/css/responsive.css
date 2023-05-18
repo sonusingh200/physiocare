@@ -327,17 +327,7 @@
     margin-bottom: 20px;
   }
 
-  #gallery-img {
-    display: block;
-    object-fit: cover;
-    object-position: top left;
-    height: 100%;
-    border-radius: 8px;
-  }
-
-  .owl-dots{
-    display: none;
-  }
+ 
 
   /***********************************************************************/
   .review-container {
@@ -587,12 +577,6 @@
     font-size: 2rem;
   }
 
-  #gallery-img {
-    display: block;
-    object-fit: cover;
-    object-position: top center;
-    border-radius: 8px;
-  }
 
   /*review-heading*******************************/
   .review-heading {
