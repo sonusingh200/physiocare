@@ -448,6 +448,9 @@ span {
     flex-direction: column;
     justify-content: center;
 }
+.review-container{
+    max-width: 1100px;
+}
 
 /*****footer-section******************************************/
 
