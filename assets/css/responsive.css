@@ -355,8 +355,8 @@
   }
 
   .footer {
-    width: 170px;
-    height: 200px;
+    width: 175px;
+    height: 250px;
   }
 
   .footer-icon {
@@ -367,8 +367,24 @@
     width: 100px;
   }
 
-  .section-one{
+  .section-one {
     justify-content: center;
+    padding-top: 8px;
+  }
+
+  .fa-envelope,
+  .fa-phone,
+  .fa-clock,
+  .fa-location-dot {
+    font-size: 13px;
+  }
+
+  .address,
+  .email,
+  .phone,
+  .time {
+    font-size: 10px;
+    line-height: 16px;
   }
 
 
@@ -622,6 +638,22 @@
     width: 250px;
     height: 200px;
   }
+
+  .fa-envelope,
+  .fa-phone,
+  .fa-clock,
+  .fa-location-dot {
+    font-size: 16px;
+  }
+
+  .address,
+  .email,
+  .phone,
+  .time {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
 
 
 

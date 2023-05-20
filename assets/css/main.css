@@ -491,7 +491,6 @@ span {
 .fa-clock,
 .fa-location-dot {
     color: #f66e48;
-    font-size: 16px;
     padding-right: 5px;
 }
 
@@ -499,8 +498,6 @@ span {
 .email,
 .phone,
 .time {
-    font-size: 11px;
-    line-height: 16px;
     padding-left: 15px;
     width: 100%;
     padding-bottom: 8px;
