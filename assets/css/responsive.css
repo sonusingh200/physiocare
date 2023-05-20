@@ -628,14 +628,9 @@
     justify-content: center;
   }
 
-  .ftr {
-    width: 240px;
-    height: 200px;
-  }
-
   .footer {
     width: 250px;
-    height: 200px;
+    height: 230px;
   }
 
   .fa-envelope,
