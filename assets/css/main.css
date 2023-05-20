@@ -439,7 +439,6 @@ span {
     width: 100%;
 }
 
-
 /****review-section*****************************************/
 
 .review-section {
@@ -466,7 +465,9 @@ span {
     margin-block: 20px;
 }
 
-
+.footer{
+    border: 0.50px solid rgba(128, 128, 128, 0.177);
+}
 /***FAQ-SECTION**************************************/
 
 .faq-section {

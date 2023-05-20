@@ -327,7 +327,7 @@
     margin-bottom: 20px;
   }
 
- 
+
 
   /***********************************************************************/
   .review-container {
@@ -352,6 +352,19 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+  }
+
+  .footer {
+    width: 150px;
+    height: 200px;
+  }
+
+  .footer-icon {
+    width: 30px;
+  }
+
+  .footer-text {
+    width: 100px;
   }
 
 
@@ -598,6 +611,11 @@
 
   .ftr {
     width: 240px;
+    height: 200px;
+  }
+
+  .footer {
+    width: 250px;
     height: 200px;
   }
 
