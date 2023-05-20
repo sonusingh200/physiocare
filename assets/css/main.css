@@ -447,7 +447,8 @@ span {
     flex-direction: column;
     justify-content: center;
 }
-.review-container{
+
+.review-container {
     max-width: 1100px;
 }
 
@@ -461,13 +462,51 @@ span {
 
 }
 
+.text-container {
+    flex-direction: column;
+    justify-content: left;
+}
+
+.section-one {
+    flex-direction: column;
+    gap: 10px;
+}
+
 .footer-main {
     margin-block: 20px;
 }
 
-.footer{
+.footer {
     border: 0.50px solid rgba(128, 128, 128, 0.177);
 }
+
+.img-container{
+    width: 100%;
+    gap: 8px;
+    padding-left: 8px;
+}
+
+.fa-envelope,
+.fa-phone,
+.fa-clock,
+.fa-location-dot {
+    color: #f66e48;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.address,
+.email,
+.phone,
+.time {
+    font-size: 11px;
+    line-height: 16px;
+    padding-left: 15px;
+    width: 100%;
+    padding-bottom: 8px;
+    color: #f8f7ff;
+}
+
 /***FAQ-SECTION**************************************/
 
 .faq-section {
