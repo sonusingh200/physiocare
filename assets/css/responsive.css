@@ -342,11 +342,6 @@
 
   /*footer-container**************************/
 
-  .ftr {
-    width: 180px;
-    height: 200px;
-  }
-
   .footer-main {
     height: auto;
     flex-wrap: wrap;

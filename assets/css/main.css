@@ -504,6 +504,11 @@ span {
     color: #f8f7ff;
 }
 
+.section-two iframe{
+    width: 100%;
+    height: 100%;
+  }
+
 /***FAQ-SECTION**************************************/
 
 .faq-section {
