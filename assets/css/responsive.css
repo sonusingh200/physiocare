@@ -367,6 +367,10 @@
     width: 100px;
   }
 
+  .section-one{
+    justify-content: center;
+  }
+
 
   /*FAQ-SECTION*******************************/
 
