@@ -504,14 +504,39 @@ span {
     color: #f8f7ff;
 }
 
-.section-two{
+.section-two {
     justify-content: center;
+
 }
 
 .section-two iframe {
     width: 95%;
     height: 95%;
     border-radius: 6px;
+}
+
+.section-three , .section-four {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links-heading  , .footer-service-heading{
+    width: 100%;
+    font-family: var(--font-family-4-website-text);
+    font-weight: 500;
+    color: #f66e48;
+    padding-left: 8px;
+}
+
+.links-list , .footer-service-menu{
+    padding-left: 8px;
+}
+
+.footer-menu , .service-links{
+    width: 100%;
+    font-family: var(--font-family-4-website-text);
+    color: #f8f7ff;
+    font-weight: 400;
 }
 
 /***FAQ-SECTION**************************************/

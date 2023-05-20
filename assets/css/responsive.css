@@ -381,8 +381,12 @@
     font-size: 10px;
     line-height: 16px;
   }
-
-
+  .links-heading , .footer-service-heading{
+    font-size: 16px;
+  }
+  .footer-menu , .service-links{
+    font-size: 12px;
+  }
   /*FAQ-SECTION*******************************/
 
 }
@@ -647,6 +651,10 @@
   .time {
     font-size: 11px;
     line-height: 16px;
+  }
+
+  .footer-menu , .service-links{
+    font-size: 13px;
   }
 
 
