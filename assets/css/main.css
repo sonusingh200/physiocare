@@ -400,8 +400,6 @@ span {
 }
 
 .customers {
-
-    border-radius: 8px;
     justify-content: center;
     flex-direction: column;
     background: transparent;
@@ -486,10 +484,10 @@ span {
     padding-left: 8px;
 }
 
-.fa-envelope,
-.fa-phone,
-.fa-clock,
-.fa-location-dot {
+.address i,
+.email i,
+.phone i,
+.time i {
     color: #f66e48;
     padding-right: 5px;
 }
@@ -515,12 +513,14 @@ span {
     border-radius: 6px;
 }
 
-.section-three , .section-four {
+.section-three,
+.section-four {
     flex-direction: column;
     justify-content: center;
 }
 
-.links-heading  , .footer-service-heading{
+.links-heading,
+.footer-service-heading {
     width: 100%;
     font-family: var(--font-family-4-website-text);
     font-weight: 500;
@@ -528,11 +528,13 @@ span {
     padding-left: 8px;
 }
 
-.links-list , .footer-service-menu{
+.links-list,
+.footer-service-menu {
     padding-left: 8px;
 }
 
-.footer-menu , .service-links{
+.footer-menu,
+.service-links {
     width: 100%;
     font-family: var(--font-family-4-website-text);
     color: #f8f7ff;
