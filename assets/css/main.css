@@ -212,7 +212,6 @@ span {
 
     display: none;
     font-size: 25px;
-    color: var(--website-shiny-wite-color);
     cursor: pointer;
 }
 
@@ -497,6 +496,7 @@ span {
 .phone,
 .time {
     padding-left: 15px;
+    padding-right: 5px;
     width: 100%;
     padding-bottom: 8px;
     color: #f8f7ff;
@@ -544,6 +544,7 @@ span {
 /***FAQ-SECTION**************************************/
 
 .faq-section {
+    
     justify-content: center;
     margin-bottom: 20px;
     margin-top: 10px;
