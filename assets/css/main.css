@@ -306,7 +306,8 @@ span {
     width: 100%;
     flex-direction: column;
     background-image: url(/assets/images/cover2.png);
-    background: linear-gradient(346deg, rgba(255, 119, 34, 1) 30%, rgba(255, 26, 26, 1) 61%);
+    /* background: linear-gradient(346deg, rgba(255, 119, 34, 1) 30%, rgba(255, 26, 26, 1) 61%); */
+    background-image: linear-gradient( 135deg, #FF6FD8 10%, #3813C2 100%);
     padding-bottom: 20px;
     background-position: center;
     background-size: contain;
