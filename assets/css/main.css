@@ -100,14 +100,12 @@ span {
 }
 
 .animated-text {
-  background: linear-gradient(
-    135deg,
-    #5335cf 0%,
-    #de005e 25%,
-    #f66e48 50%,
-    #de005e 75%,
-    #5335cf 100%
-  );
+  background: linear-gradient(135deg,
+      #5335cf 0%,
+      #de005e 25%,
+      #f66e48 50%,
+      #de005e 75%,
+      #5335cf 100%);
   background-size: 400%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -133,11 +131,9 @@ span {
 .footer-c-bar {
   width: 100%;
   height: 40px;
-  background: linear-gradient(
-    346deg,
-    rgba(255, 119, 34, 0.999) 32%,
-    rgb(227, 25, 55) 84%
-  );
+  background: linear-gradient(346deg,
+      rgba(255, 119, 34, 0.999) 32%,
+      rgb(227, 25, 55) 84%);
 }
 
 .footer-c-bar p {
@@ -213,11 +209,9 @@ span {
   text-align: center;
   border-radius: var(--website-border-radius);
   color: var(--website-shiny-wite-color);
-  background: linear-gradient(
-    346deg,
-    rgba(255, 119, 34, 0.999) 32%,
-    rgb(227, 25, 55) 84%
-  );
+  background: linear-gradient(346deg,
+      rgba(255, 119, 34, 0.999) 32%,
+      rgb(227, 25, 55) 84%);
   box-shadow: var(--box-shadow-header);
 }
 
@@ -298,7 +292,7 @@ span {
   flex-direction: column;
   background-image: url(/assets/images/cover2.png);
   /* background: linear-gradient(346deg, rgba(255, 119, 34, 1) 30%, rgba(255, 26, 26, 1) 61%); */
-  background-image: linear-gradient( 135deg, #FEC163 10%, #DE4313 100%);
+  background-image: linear-gradient(135deg, #FEC163 10%, #DE4313 100%);
   padding-bottom: 20px;
   background-position: center;
   background-size: contain;
@@ -337,8 +331,9 @@ span {
   display: block;
   margin-inline: auto;
 }
-.service-heading{
-    padding-top: 20px;
+
+.service-heading {
+  padding-top: 20px;
 }
 
 /*About-us-section========================================*/
@@ -409,27 +404,17 @@ span {
 }
 
 /******gallery-section**************************************/
-
-.gallery-section {
-  width: 100%;
+.gallery-section{
+  margin-top: 20px;
   justify-content: center;
   flex-direction: column;
-  margin-top: 20px;
-}
-
-.gallery-heading {
-  padding-top: 10px;
-}
-
-.gallery-container {
-  width: 100%;
 }
 
 /****review-section*****************************************/
 
 .review-section {
   width: 100%;
-  height: 400px;
+  height: auto;
   flex-direction: column;
   justify-content: center;
 }

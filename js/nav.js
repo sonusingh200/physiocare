@@ -53,37 +53,16 @@ const swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
-
-//owl*js*****************************************************************************************//
-
-$(".carousel").owlCarousel({
-    margin: 20,
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 4000,
-    autoplayHoverPause: true,
-    responsive: {
-        0: {
-            items: 3,
-            nav: false
-        },
-        600: {
-            items: 2,
-            nav: false
-        },
-        1000: {
-            items: 4,
-            nav: false
-        }
-    }
-});
-
 /******************************************************************************************/
-(function (w,d,s,o,r,js,fjs) {
-    w[r]=w[r]||function() {(w[r].q = w[r].q || []).push(arguments)}
+
+(function (w, d, s, o, r, js, fjs) {
+    w[r] = w[r] || function () { (w[r].q = w[r].q || []).push(arguments) }
     w[r]('app', '1UU6J7SJuw');
-    if(d.getElementById(o)) return;
+    if (d.getElementById(o)) return;
     js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
     js.id = o; js.src = 'https://embed.trustmary.com/embed.js';
     js.async = 1; fjs.parentNode.insertBefore(js, fjs);
-  }(window, document, 'script', 'trustmary-embed', 'tmary'));
+}(window, document, 'script', 'trustmary-embed', 'tmary'));
+
+/*********************************************************************************************/
+
