@@ -583,3 +583,13 @@ span {
   overflow: hidden;
   transition: all 1s;
 }
+
+.home-booking{
+  background-color: #005AFF ;
+  margin-top: 20px;
+  border: 0.10px solid rgba(128, 128, 128, 0.171);
+  border-radius: 10px;
+  box-shadow: 0px 7px 7px rgba(128, 128, 128, 0.181);
+  width: 90%;
+  height: 150px;
+}
