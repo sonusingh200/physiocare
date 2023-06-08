@@ -175,7 +175,6 @@
     border-top: 4px solid red;
     border-bottom: 4px solid green;
     position: relative;
-
   }
 
   .about-us-image::before,
@@ -333,7 +332,6 @@
   }
 
   .review-heading {
-
     font-size: 1.5rem;
     width: 95%;
   }
@@ -379,20 +377,23 @@
     font-size: 10px;
     line-height: 16px;
   }
-  .links-heading , .footer-service-heading{
+  .links-heading,
+  .footer-service-heading {
     font-size: 16px;
   }
-  .footer-menu , .service-links{
+  .footer-menu,
+  .service-links {
     font-size: 12px;
   }
   /*FAQ-SECTION*******************************/
-
+  .faqe-container{
+    width: 90%;
+  }
 }
 
 /*dekstop devices responsive css starts here*/
 
 @media screen and (min-width: 1049px) {
-
   .service-heading {
     font-size: 2rem;
   }
@@ -507,7 +508,6 @@
 
   .menu-links {
     color: var(--website-button-color);
-
   }
 
   /*hero-section================================*/
@@ -515,7 +515,6 @@
   .hero-text-heading {
     font-size: var(--hero-title-dekstop);
     color: var(--website-hero-title-color);
-
   }
 
   .animated-text {
@@ -607,7 +606,6 @@
     font-size: 2rem;
   }
 
-
   /*review-heading*******************************/
   .review-heading {
     font-size: 2rem;
@@ -617,7 +615,9 @@
   .faq-heading {
     font-size: 2rem;
   }
-
+  .faqe-container {
+    width: 80%;
+  }
   /***footer***************************************/
   .footer-main {
     width: 100%;
@@ -646,11 +646,8 @@
     line-height: 16px;
   }
 
-  .footer-menu , .service-links{
+  .footer-menu,
+  .service-links {
     font-size: 13px;
   }
-
-
-
-
 }
