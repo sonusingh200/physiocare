@@ -414,6 +414,9 @@ span {
   margin-top: 20px;
   justify-content: center;
   flex-direction: column;
+  padding-block: 20px;
+  background-size: cover;
+  background-position: center;
 }
 .gallery{
   border: 0.10px solid rgba(128, 128, 128, 0.191);

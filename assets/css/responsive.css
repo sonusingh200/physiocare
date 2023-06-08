@@ -612,12 +612,12 @@
   }
 
   /*gallery-section********************************/
-
+ 
   .gallery-heading {
     font-size: 2rem;
   }
   .gallery-container{
-    max-width: 1100px;
+    max-width: 1200px;
     gap: 20px;
 
   }
