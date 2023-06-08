@@ -325,6 +325,17 @@
   .gallery-section {
     margin-bottom: 20px;
   }
+  .gallery-container{
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+  }
+  .gallery{
+    width: 180px;
+    height: 200px;
+  }
 
   /***********************************************************************/
   .review-container {
@@ -605,7 +616,15 @@
   .gallery-heading {
     font-size: 2rem;
   }
+  .gallery-container{
+    max-width: 1100px;
+    gap: 20px;
 
+  }
+  .gallery{
+    width: 250px;
+    height: 200px;
+  }
   /*review-heading*******************************/
   .review-heading {
     font-size: 2rem;
