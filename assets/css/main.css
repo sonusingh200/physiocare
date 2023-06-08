@@ -411,7 +411,9 @@ span {
 
 /******gallery-section**************************************/
 .gallery-section {
-  margin-top: 20px;
+  background-color: #f9f0e8;
+  background-image: url(/assets/images/—Pngtree—digital\ blue\ wave\ lines\ element_8744223.png);
+  background-size: cover;
   justify-content: center;
   flex-direction: column;
   padding-block: 20px;

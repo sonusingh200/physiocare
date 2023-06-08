@@ -617,12 +617,12 @@
     font-size: 2rem;
   }
   .gallery-container{
-    max-width: 1200px;
+    max-width: 1250px;
     gap: 20px;
 
   }
   .gallery{
-    width: 250px;
+    width: 190px;
     height: 200px;
   }
   /*review-heading*******************************/
