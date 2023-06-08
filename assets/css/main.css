@@ -522,7 +522,7 @@ span {
 /***FAQ-SECTION**************************************/
 
 .faq-section {
-  height: auto;
+  height: 400px;
   justify-content: center;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -534,8 +534,8 @@ span {
   padding-top: 20px;
 }
 .faq-wrapper {
+  margin-bottom: 15px;
   background-color: #ffffff;
-  margin-bottom: 20px;
   padding: 15px 40px;
   border-radius: 5px;
   box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
