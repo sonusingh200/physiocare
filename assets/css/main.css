@@ -522,6 +522,7 @@ span {
 /***FAQ-SECTION**************************************/
 
 .faq-section {
+  height: auto;
   justify-content: center;
   margin-bottom: 20px;
   margin-top: 10px;
