@@ -325,14 +325,14 @@
   .gallery-section {
     margin-bottom: 20px;
   }
-  .gallery-container{
+  .gallery-container {
     margin-top: 10px;
     flex-wrap: wrap;
     gap: 5px;
     width: 100%;
     justify-content: center;
   }
-  .gallery{
+  .gallery {
     width: 180px;
     height: 200px;
   }
@@ -397,8 +397,18 @@
     font-size: 12px;
   }
   /*FAQ-SECTION*******************************/
-  .faqe-container{
-    width: 90%;
+  .faqe-container {
+    width: 95%;
+  }
+  
+  .video-container {
+    width: 100%;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .vedio-card {
+    height: 200px;
+    width: 170px;
   }
 }
 
@@ -612,16 +622,15 @@
   }
 
   /*gallery-section********************************/
- 
+
   .gallery-heading {
     font-size: 2rem;
   }
-  .gallery-container{
+  .gallery-container {
     max-width: 1250px;
     gap: 20px;
-
   }
-  .gallery{
+  .gallery {
     width: 190px;
     height: 200px;
   }
@@ -668,5 +677,14 @@
   .footer-menu,
   .service-links {
     font-size: 13px;
+  }
+  /****************************************************/
+  .video-container {
+    max-width: 1100px;
+    gap: 10px;
+  }
+  .vedio-card {
+    height: 200px;
+    width: 250px;
   }
 }

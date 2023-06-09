@@ -586,3 +586,19 @@ span {
   overflow: hidden;
   transition: all 1s;
 }
+/************************************************************/
+.video-sec{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.video-container{
+  justify-content: center;
+}
+
+.vedio-card iframe{
+  border-radius: 8px;
+  box-shadow: 0px 7px 7px 1px rgba(128, 128, 128, 0.153);
+}
