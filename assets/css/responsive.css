@@ -406,10 +406,7 @@
     gap: 5px;
     flex-wrap: wrap;
   }
-  .vedio-card {
-    height: 200px;
-    width: 170px;
-  }
+  
 }
 
 /*dekstop devices responsive css starts here*/
@@ -683,8 +680,5 @@
     max-width: 1100px;
     gap: 10px;
   }
-  .vedio-card {
-    height: 200px;
-    width: 250px;
-  }
+  
 }

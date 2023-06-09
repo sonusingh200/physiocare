@@ -567,15 +567,20 @@ span {
   width: 100%;
   background-color: transparent;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: left;
+  gap: 10px;
   font-size: 12px;
   color: #111130;
   font-weight: 400;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 15px 0;
+  padding-top: 13px;
+}
+.toggle p{
+  width: 100%;
+  font-family: var(--font-family-4-website-text);
+  text-align: left;
 }
 .faq-content {
   position: relative;
@@ -586,6 +591,10 @@ span {
   overflow: hidden;
   transition: all 1s;
 }
+.icon{
+  margin-top: 8px;
+}
+
 /************************************************************/
 .video-sec{
   width: 100%;
@@ -598,7 +607,5 @@ span {
   justify-content: center;
 }
 
-.vedio-card iframe{
-  border-radius: 8px;
-  box-shadow: 0px 7px 7px 1px rgba(128, 128, 128, 0.153);
-}
+
+
