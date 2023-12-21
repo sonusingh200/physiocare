@@ -76,8 +76,7 @@
 
   .hero-container {
     width: 100%;
-    height: 500px;
-    background-image: url(/assets/images/mobile-hero.webp);
+    height: 300px;
     justify-content: center;
     background-position: center center;
     background-size: cover;
@@ -86,24 +85,22 @@
     top: 50px;
   }
 
-  .hero-text {
-    width: 80%;
-    z-index: 5;
-  }
-
-  .hero-text-heading {
-    font-size: var(--hero-title-mobile);
-    color: whitesmoke;
-  }
-
   .swiper {
     display: none;
   }
 
-  .hero-mobile-heading {
-    width: 90%;
+  .swipe{
+    display: block;
+    width:100%;
+    height: 300px;
   }
-
+  .swipe-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
   /*info-section=====================================*/
 
   .info-card {
@@ -148,7 +145,6 @@
   }
 
   .service-heading {
-    padding-top: 10px;
     font-size: 1.5rem;
   }
 
@@ -176,7 +172,6 @@
     border-top: 4px solid red;
     border-bottom: 4px solid green;
     position: relative;
-
   }
 
   .about-us-image::before,
@@ -327,8 +322,17 @@
   .gallery-section {
     margin-bottom: 20px;
   }
-
-
+  .gallery-container {
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+  }
+  .gallery {
+    width: 180px;
+    height: 200px;
+  }
 
   /***********************************************************************/
   .review-container {
@@ -336,7 +340,6 @@
   }
 
   .review-heading {
-
     font-size: 1.5rem;
     width: 95%;
   }
@@ -382,20 +385,30 @@
     font-size: 10px;
     line-height: 16px;
   }
-  .links-heading , .footer-service-heading{
+  .links-heading,
+  .footer-service-heading {
     font-size: 16px;
   }
-  .footer-menu , .service-links{
+  .footer-menu,
+  .service-links {
     font-size: 12px;
   }
   /*FAQ-SECTION*******************************/
-
+  .faqe-container {
+    width: 95%;
+  }
+  
+  .video-container {
+    width: 100%;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  
 }
 
 /*dekstop devices responsive css starts here*/
 
 @media screen and (min-width: 1049px) {
-
   .service-heading {
     font-size: 2rem;
   }
@@ -510,20 +523,10 @@
 
   .menu-links {
     color: var(--website-button-color);
-
   }
 
   /*hero-section================================*/
 
-  .hero-text-heading {
-    font-size: var(--hero-title-dekstop);
-    color: var(--website-hero-title-color);
-
-  }
-
-  .animated-text {
-    font-size: var(--hero-title-dekstop);
-  }
 
   .hero-container {
     background-image: none;
@@ -531,14 +534,10 @@
     height: 400px;
   }
 
-  .hero-mobile-heading {
-    display: none;
-  }
-
   .swiper {
+    display: block;
     width: 100%;
     height: 400px;
-    display: block;
   }
 
   .swiper-slide {
@@ -554,9 +553,12 @@
     display: block;
     width: 100%;
     height: 100%;
+    object-position: center;
     object-fit: cover;
   }
-
+  .mySwipe{
+    display: none;
+  }
   /*--consult-now-sticky-section-----------------*/
 
   .consult-now {
@@ -609,8 +611,14 @@
   .gallery-heading {
     font-size: 2rem;
   }
-
-
+  .gallery-container {
+    max-width: 1250px;
+    gap: 20px;
+  }
+  .gallery {
+    width: 190px;
+    height: 200px;
+  }
   /*review-heading*******************************/
   .review-heading {
     font-size: 2rem;
@@ -620,7 +628,9 @@
   .faq-heading {
     font-size: 2rem;
   }
-
+  .faqe-container {
+    width: 80%;
+  }
   /***footer***************************************/
   .footer-main {
     width: 100%;
@@ -649,11 +659,14 @@
     line-height: 16px;
   }
 
-  .footer-menu , .service-links{
+  .footer-menu,
+  .service-links {
     font-size: 13px;
   }
-
-
-
-
+  /****************************************************/
+  .video-container {
+    max-width: 1100px;
+    gap: 10px;
+  }
+  
 }

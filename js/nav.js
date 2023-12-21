@@ -54,36 +54,61 @@ const swiper = new Swiper(".mySwiper", {
     },
 });
 
-//owl*js*****************************************************************************************//
-
-$(".carousel").owlCarousel({
-    margin: 20,
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 4000,
-    autoplayHoverPause: true,
-    responsive: {
-        0: {
-            items: 3,
-            nav: false
-        },
-        600: {
-            items: 2,
-            nav: false
-        },
-        1000: {
-            items: 4,
-            nav: false
-        }
-    }
+const swipe = new Swiper(".mySwipe", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
 });
-
 /******************************************************************************************/
-(function (w,d,s,o,r,js,fjs) {
-    w[r]=w[r]||function() {(w[r].q = w[r].q || []).push(arguments)}
+
+(function (w, d, s, o, r, js, fjs) {
+    w[r] = w[r] || function () { (w[r].q = w[r].q || []).push(arguments) }
     w[r]('app', '1UU6J7SJuw');
-    if(d.getElementById(o)) return;
+    if (d.getElementById(o)) return;
     js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
     js.id = o; js.src = 'https://embed.trustmary.com/embed.js';
     js.async = 1; fjs.parentNode.insertBefore(js, fjs);
-  }(window, document, 'script', 'trustmary-embed', 'tmary'));
+}(window, document, 'script', 'trustmary-embed', 'tmary'));
+
+/************faq*********************************************************************************/
+
+let toggles = document.getElementsByClassName('toggle');
+let contentDiv = document.getElementsByClassName('faq-content');
+let icons = document.getElementsByClassName('icon');
+
+for (let i = 0; i < toggles.length; i++) {
+    toggles[i].addEventListener('click', () => {
+        if (parseInt(contentDiv[i].style.height) != contentDiv[i].scrollHeight) {
+            contentDiv[i].style.height = contentDiv[i].scrollHeight + "px";
+            toggles[i].style.color = "#0084e9";
+            icons[i].classList.remove('fa-plus');
+            icons[i].classList.add('fa-minus');
+        }
+        else {
+            contentDiv[i].style.height = "0px";
+            toggles[i].style.color = "#111130";
+            icons[i].classList.remove('fa-minus');
+            icons[i].classList.add('fa-plus');
+        }
+
+        for (let j = 0; j < contentDiv.length; j++) {
+            if (j !== i) {
+                contentDiv[j].style.height = "0px";
+                toggles[j].style.color = "#111130";
+                icons[j].classList.remove('fa-minus');
+                icons[j].classList.add('fa-plus');
+            }
+        }
+    });
+}
